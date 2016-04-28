@@ -1,0 +1,1531 @@
+toxoi.de: true
+!!! [0] toxoide: true !!!
+ao.de: false
+.ba.de: false
+.bi.de: false
+.bo.de: false
+.ca.de: false
+.ci.de: false
+.co.de: false
+.cu.de: false
+.ga.de: false
+.go.de: false
+.gu.de: false
+.ho.de: false
+.hu.de: false
+.ig.de: false
+.ja.de: false
+.li.de: false
+.ma.de: false
+.oc.de: false
+.oi.de: false
+.on.de: false
+.pa.de: false
+.re.de: false
+.ru.de: false
+.sa.de: false
+.se.de: false
+.ua.de: false
+.vi.de: false
+.abe.de: false
+.aca.de: false
+.acu.de: false
+.alo.de: false
+.ama.de: false
+.apo.de: false
+.are.de: false
+.aro.de: false
+.bal.de: false
+.ben.de: false
+.bin.de: false
+.bon.de: false
+.cai.de: false
+.can.de: false
+.cha.de: false
+.che.de: false
+.cla.de: false
+.cli.de: false
+.con.de: false
+.cre.de: false
+.cru.de: false
+.den.de: false
+.dia.de: false
+.don.de: false
+.efo.de: false
+.egi.de: false
+.ele.de: false
+.emi.de: false
+.foi.de: false
+.for.de: false
+.fra.de: false
+.geo.de: false
+.gli.de: false
+.gon.de: false
+.gra.de: false
+.gre.de: false
+.gro.de: false
+.gue.de: false
+.gun.de: false
+.gur.de: false
+.hai.de: false
+.hal.de: false
+.hei.de: false
+.hil.de: false
+.ian.de: false
+.ida.de: false
+.ira.de: false
+.ixo.de: false
+.jal.de: false
+.jan.de: false
+.jeu.de: false
+.joe.de: false
+.lan.de: false
+.lau.de: false
+.lei.de: false
+.len.de: false
+.leu.de: false
+.lin.de: false
+.lio.de: false
+.loi.de: false
+.lor.de: false
+.man.de: false
+.men.de: false
+.mil.de: false
+.mio.de: false
+.miu.de: false
+.mol.de: false
+.mon.de: false
+.mun.de: false
+.nai.de: false
+.nei.de: false
+.nen.de: false
+.non.de: false
+.ode.de: false
+.ogu.de: false
+.ole.de: false
+.olo.de: false
+.pan.de: false
+.pia.de: false
+.pun.de: false
+.que.de: false
+.rai.de: false
+.rei.de: false
+.ria.de: false
+.ron.de: false
+.sai.de: false
+.sau.de: false
+.sio.de: false
+.sli.de: false
+.sue.de: false
+.tar.de: false
+.tia.de: false
+.tru.de: false
+.una.de: false
+.ver.de: false
+.zai.de: false
+.zan.de: false
+.zen.de: false
+.zoi.de: false
+.abdu.de: false
+.absi.de: false
+.acli.de: false
+.acni.de: false
+.acor.de: false
+.acro.de: false
+.adre.de: false
+.afro.de: false
+.ailu.de: false
+.alai.de: false
+.alar.de: false
+.alau.de: false
+.alca.de: false
+.alci.de: false
+.aloi.de: false
+.ambu.de: false
+.anai.de: false
+.apsi.de: false
+.arca.de: false
+.arol.de: false
+.arpa.de: false
+.arva.de: false
+.asdo.de: false
+.aspi.de: false
+.atai.de: false
+.atau.de: false
+.avon.de: false
+.axoi.de: false
+.baba.de: false
+.baju.de: false
+.basi.de: false
+.bati.de: false
+.beda.de: false
+.beri.de: false
+.bigo.de: false
+.bipe.de: false
+.boli.de: false
+.buen.de: false
+.buno.de: false
+.buru.de: false
+.cabi.de: false
+.capi.de: false
+.cegu.de: false
+.ceri.de: false
+.ceru.de: false
+.chan.de: false
+.chei.de: false
+.cida.de: false
+.cigu.de: false
+.cito.de: false
+.clau.de: false
+.clei.de: false
+.demo.de: false
+.dico.de: false
+.dipo.de: false
+.dori.de: false
+.dria.de: false
+.duen.de: false
+.eban.de: false
+.ecoi.de: false
+.elan.de: false
+.elen.de: false
+.enea.de: false
+.enei.de: false
+.eque.de: false
+.eran.de: false
+.eupo.de: false
+.filo.de: false
+.fior.de: false
+.flan.de: false
+.fola.de: false
+.fran.de: false
+.frau.de: false
+.geoi.de: false
+.glan.de: false
+.glei.de: false
+.gour.de: false
+.gran.de: false
+.grau.de: false
+.grei.de: false
+.guen.de: false
+.hada.de: false
+.hara.de: false
+.haru.de: false
+.hele.de: false
+.helo.de: false
+.heni.de: false
+.hese.de: false
+.hibo.de: false
+.hilo.de: false
+.hioi.de: true
+!!! [57] hioide: true !!!
+ialo.de: false
+.iapi.de: false
+.iaun.de: true
+!!! [60] iaunde: true !!!
+ieub.de: false
+.ijin.de: false
+.ilia.de: false
+.inan.de: false
+.iodi.de: false
+.jago.de: false
+.japi.de: false
+.jere.de: false
+.lagi.de: false
+.lame.de: false
+.lapi.de: false
+.lepa.de: false
+.lico.de: false
+.lipi.de: false
+.lito.de: false
+.loxo.de: false
+.mabo.de: false
+.mame.de: false
+.mamu.de: false
+.mata.de: false
+.meda.de: false
+.mena.de: false
+.meri.de: false
+.meta.de: false
+.mida.de: false
+.mioi.de: false
+.mobe.de: false
+.moli.de: false
+.mona.de: false
+.mone.de: false
+.muen.de: false
+.naba.de: false
+.naia.de: false
+.naun.de: false
+.nhun.de: true
+!!! [95] nhunde: true !!!
+noma.de: false
+.nuco.de: false
+.ogco.de: false
+.omoi.de: false
+.onco.de: false
+.ooti.de: false
+.oque.de: false
+.orea.de: false
+.oroi.de: false
+.oroo.de: false
+.ovoi.de: false
+.pago.de: false
+.paja.de: false
+.pala.de: false
+.palo.de: false
+.palu.de: false
+.pare.de: false
+.pein.de: false
+.pevi.de: false
+.pioi.de: true
+!!! [115] pioide: true !!!
+pipe.de: false
+.pixi.de: false
+.quen.de: false
+.rafi.de: false
+.raga.de: false
+.ripi.de: false
+.seri.de: false
+.stan.de: false
+.tagi.de: false
+.tali.de: false
+.talu.de: false
+.tria.de: false
+.troa.de: false
+.vali.de: false
+.viri.de: false
+.zeda.de: false
+.zooi.de: false
+.abece.de: false
+.abuje.de: false
+.adali.de: false
+.adapi.de: true
+!!! [136] adapide: true !!!
+adoni.de: false
+.aeroi.de: true
+!!! [138] aeroide: true !!!
+aftoi.de: true
+!!! [139] aftoide: true !!!
+agani.de: false
+.agati.de: false
+.alben.de: false
+.alcai.de: false
+.alcal.de: false
+.algoi.de: true
+!!! [145] algoide: true !!!
+alida.de: false
+.alipe.de: false
+.amera.de: false
+.amiza.de: false
+.ancro.de: true
+!!! [150] ancrode: true !!!
+andon.de: false
+.andra.de: false
+.anida.de: false
+.antia.de: false
+.antoi.de: false
+.arida.de: false
+.astri.de: false
+.atitu.de: false
+.atloi.de: true
+!!! [159] atloide: true !!!
+azeli.de: true
+!!! [160] azelide: true !!!
+bacon.de: false
+.bagda.de: true
+!!! [162] bagdade: true !!!
+balur.de: false
+.bapen.de: true
+!!! [164] bapende: true !!!
+baqui.de: true
+!!! [165] baquide: true !!!
+barva.de: false
+.batil.de: true
+!!! [167] batilde: true !!!
+batoi.de: true
+!!! [168] batoide: true !!!
+bauci.de: true
+!!! [169] baucide: true !!!
+belda.de: false
+.benil.de: false
+.bicau.de: true
+!!! [172] bicaude: true !!!
+bilbo.de: false
+.bison.de: false
+.bonda.de: false
+.bromi.de: false
+.bunoi.de: true
+!!! [177] bunoide: true !!!
+cabon.de: false
+.cacon.de: false
+.cacun.de: false
+.calon.de: false
+.candi.de: false
+.canin.de: false
+.canoi.de: true
+!!! [184] canoide: true !!!
+capan.de: false
+.capau.de: true
+!!! [186] capaude: true !!!
+cassa.de: false
+.caten.de: false
+caten.de: false
+.caxin.de: true
+!!! [1] caxinde: true !!!
+caxun.de: true
+!!! [2] caxunde: true !!!
+ceboi.de: true
+!!! [3] ceboide: true !!!
+celio.de: false
+.cerci.de: false
+.ceroi.de: true
+!!! [6] ceroide: true !!!
+cespe.de: true
+!!! [7] cespede: true !!!
+cesto.de: false
+.cicla.de: true
+!!! [9] ciclade: true !!!
+cilio.de: false
+.cimin.de: true
+!!! [11] ciminde: true !!!
+cimoi.de: true
+!!! [12] cimoide: true !!!
+citoi.de: true
+!!! [13] citoide: true !!!
+clado.de: false
+.clami.de: false
+.clori.de: true
+!!! [16] cloride: true !!!
+cnemi.de: true
+!!! [17] cnemide: true !!!
+cobar.de: false
+.cocoi.de: false
+.coloi.de: true
+!!! [20] coloide: true !!!
+colpo.de: false
+.compe.de: false
+.conoi.de: true
+!!! [23] conoide: true !!!
+coroi.de: true
+!!! [24] coroide: true !!!
+covar.de: false
+.crisi.de: false
+.cuboi.de: true
+!!! [27] cuboide: true !!!
+cuspi.de: false
+.custo.de: false
+.danai.de: false
+.debal.de: false
+.degra.de: false
+.deida.de: false
+.dinse.de: false
+.dioxi.de: false
+.dipca.de: true
+!!! [36] dipcade: true !!!
+dipsa.de: true
+!!! [37] dipsade: true !!!
+domoi.de: true
+!!! [38] domoide: true !!!
+duida.de: true
+!!! [39] duidade: true !!!
+duran.de: false
+.duria.de: false
+.ebali.de: true
+!!! [42] ebalide: true !!!
+ecodi.de: false
+.edipo.de: true
+!!! [44] edipode: true !!!
+efati.de: true
+!!! [45] efatide: true !!!
+efeli.de: true
+!!! [46] efelide: true !!!
+egopo.de: true
+!!! [47] egopode: true !!!
+embal.de: true
+!!! [48] embalde: true !!!
+epipo.de: false
+.epuli.de: false
+.eripe.de: true
+!!! [51] eripede: true !!!
+eslai.de: true
+!!! [52] eslaide: true !!!
+espel.de: false
+.estan.de: false
+.etmoi.de: true
+!!! [55] etmoide: true !!!
+exoca.de: true
+!!! [56] exocade: true !!!
+exomi.de: false
+.exopo.de: true
+!!! [58] exopode: true !!!
+facoi.de: true
+!!! [59] facoide: true !!!
+faloi.de: true
+!!! [60] faloide: true !!!
+ficoi.de: true
+!!! [61] ficoide: true !!!
+filoi.de: false
+.fisoi.de: true
+!!! [63] fisoide: true !!!
+fitoi.de: true
+!!! [64] fitoide: true !!!
+flomi.de: false
+.fucoi.de: true
+!!! [66] fucoide: true !!!
+fusoi.de: true
+!!! [67] fusoide: true !!!
+gadoi.de: false
+.galeo.de: false
+.ganoi.de: true
+!!! [70] ganoide: true !!!
+geloi.de: true
+!!! [71] geloide: true !!!
+glici.de: false
+.glifo.de: true
+!!! [73] glifode: true !!!
+gloti.de: true
+!!! [74] glotide: true !!!
+gluci.de: true
+!!! [75] glucide: true !!!
+gonio.de: false
+.grilo.de: false
+.guele.de: false
+.haloi.de: false
+.hamai.de: false
+.hassi.de: false
+.heloi.de: true
+!!! [82] heloide: true !!!
+hemoi.de: true
+!!! [83] hemoide: true !!!
+herda.de: false
+.heroi.de: true
+!!! [85] heroide: true !!!
+hipoi.de: true
+!!! [86] hipoide: true !!!
+homoi.de: true
+!!! [87] homoide: true !!!
+hospe.de: false
+.humil.de: false
+.iberi.de: false
+.icabo.de: false
+.icodi.de: true
+!!! [92] icodide: true !!!
+iliri.de: false
+.imbun.de: false
+.isopo.de: false
+.issen.de: true
+!!! [96] issende: true !!!
+jacun.de: true
+!!! [97] jacunde: true !!!
+jegue.de: true
+!!! [98] jeguede: true !!!
+jeque.de: true
+!!! [99] jequede: true !!!
+jupie.de: false
+.lacon.de: false
+.lacti.de: false
+.lambu.de: false
+.lampi.de: false
+.lanzu.de: true
+!!! [105] lanzude: true !!!
+lepoi.de: true
+!!! [106] lepoide: true !!!
+lepri.de: true
+!!! [107] lepride: true !!!
+licni.de: true
+!!! [108] licnide: true !!!
+licon.de: false
+.liopo.de: true
+!!! [110] liopode: true !!!
+lipoi.de: true
+!!! [111] lipoide: true !!!
+litoi.de: true
+!!! [112] litoide: true !!!
+liton.de: false
+.locon.de: false
+.lotoi.de: true
+!!! [115] lotoide: true !!!
+lupoi.de: true
+!!! [116] lupoide: true !!!
+maamu.de: true
+!!! [117] maamude: true !!!
+macon.de: false
+.macun.de: false
+.madri.de: false
+.malda.de: false
+.mambu.de: false
+.mario.de: false
+.matil.de: false
+.mauli.de: false
+.mavil.de: false
+.melin.de: false
+.merin.de: false
+.mesoi.de: true
+!!! [129] mesoide: true !!!
+mezan.de: true
+!!! [130] mezande: true !!!
+miloi.de: false
+.milor.de: false
+.miria.de: false
+.misti.de: false
+.miton.de: false
+.mixoi.de: true
+!!! [136] mixoide: true !!!
+mnioi.de: true
+!!! [137] mnioide: true !!!
+moame.de: true
+!!! [138] moamede: true !!!
+moloi.de: false
+.monoi.de: false
+.mormo.de: false
+.mucaa.de: true
+!!! [142] mucaade: true !!!
+mucan.de: false
+.mucoi.de: true
+!!! [144] mucoide: true !!!
+mucun.de: true
+!!! [145] mucunde: true !!!
+muden.de: false
+.mugan.de: false
+.mulen.de: true
+!!! [148] mulende: true !!!
+muloi.de: true
+!!! [149] muloide: true !!!
+nanoi.de: true
+!!! [150] nanoide: true !!!
+nebri.de: false
+.necro.de: false
+.nepoi.de: true
+!!! [153] nepoide: true !!!
+nerei.de: false
+.netoi.de: true
+!!! [155] netoide: true !!!
+ninro.de: false
+.nodoi.de: true
+!!! [157] nodoide: true !!!
+notio.de: false
+.ocipo.de: true
+!!! [159] ocipode: true !!!
+ofioi.de: true
+!!! [160] ofioide: true !!!
+ogdoa.de: true
+!!! [161] ogdoade: true !!!
+omuan.de: true
+!!! [162] omuande: true !!!
+ononi.de: true
+!!! [163] ononide: true !!!
+oozoi.de: true
+!!! [164] oozoide: true !!!
+opioi.de: false
+.ormas.de: true
+!!! [166] ormasde: true !!!
+
+orneo.de: true
+!!! [0] orneode: true !!!
+ortoi.de: true
+!!! [1] ortoide: true !!!
+osiri.de: true
+!!! [2] osiride: true !!!
+ostei.de: false
+.osten.de: false
+.ovoti.de: true
+!!! [5] ovotide: true !!!
+oxali.de: false
+.ozoni.de: false
+.pempa.de: true
+!!! [8] pempade: true !!!
+pepti.de: false
+.perin.de: false
+.peroi.de: true
+!!! [11] peroide: true !!!
+persi.de: false
+.picno.de: true
+!!! [13] picnode: true !!!
+picoi.de: true
+!!! [14] picoide: true !!!
+pieda.de: true
+!!! [15] piedade: true !!!
+pieri.de: false
+.piroi.de: true
+!!! [17] piroide: true !!!
+pisoi.de: true
+!!! [18] pisoide: true !!!
+pisso.de: true
+!!! [19] pissode: true !!!
+pitia.de: true
+!!! [20] pitiade: true !!!
+pleia.de: false
+.podoi.de: true
+!!! [22] podoide: true !!!
+polia.de: false
+.polii.de: true
+!!! [24] poliide: true !!!
+proti.de: false
+.prove.de: false
+.psali.de: true
+!!! [27] psalide: true !!!
+pseca.de: true
+!!! [28] psecade: true !!!
+psico.de: false
+.pteri.de: true
+!!! [30] pteride: true !!!
+quipe.de: false
+.rabal.de: false
+.ragoi.de: true
+!!! [33] ragoide: true !!!
+ramal.de: false
+.ranoi.de: false
+.rapso.de: false
+.rebel.de: false
+.riten.de: false
+.riton.de: false
+.rizoi.de: true
+!!! [40] rizoide: true !!!
+rodoi.de: false
+.sameo.de: false
+.sarco.de: false
+.sauda.de: false
+.senoi.de: false
+.sepsi.de: false
+.sifoi.de: true
+!!! [47] sifoide: true !!!
+silfi.de: true
+!!! [48] silfide: true !!!
+simpo.de: false
+.soida.de: false
+.tacoi.de: true
+!!! [51] tacoide: true !!!
+talmu.de: true
+!!! [52] talmude: true !!!
+taloi.de: true
+!!! [53] taloide: true !!!
+tanai.de: true
+!!! [54] tanaide: true !!!
+tanoi.de: false
+.taqui.de: true
+!!! [56] taquide: true !!!
+teroi.de: true
+!!! [57] teroide: true !!!
+tetra.de: false
+.tiaro.de: true
+!!! [59] tiarode: true !!!
+tifoi.de: true
+!!! [60] tifoide: true !!!
+tigri.de: false
+.tiroi.de: true
+!!! [62] tiroide: true !!!
+tolpi.de: false
+.toroi.de: true
+!!! [64] toroide: true !!!
+toxoi.de: true
+!!! [65] toxoide: true !!!
+treno.de: false
+.triba.de: false
+.trigo.de: false
+.trino.de: false
+.tripo.de: false
+.trofi.de: false
+.ulcoi.de: true
+!!! [72] ulcoide: true !!!
+umida.de: true
+!!! [73] umidade: true !!!
+unipe.de: true
+!!! [74] unipede: true !!!
+upgra.de: false
+.uropo.de: true
+!!! [76] uropode: true !!!
+vaida.de: false
+.valoi.de: true
+!!! [78] valoide: true !!!
+vedoi.de: true
+!!! [79] vedoide: true !!!
+verda.de: false
+.vilda.de: false
+.viroi.de: true
+!!! [82] viroide: true !!!
+virtu.de: false
+.vobor.de: true
+!!! [84] voborde: true !!!
+vocoi.de: true
+!!! [85] vocoide: true !!!
+voivo.de: false
+.vonta.de: false
+.xifoi.de: true
+!!! [88] xifoide: true !!!
+xiloi.de: true
+!!! [89] xiloide: true !!!
+zenai.de: true
+!!! [90] zenaide: true !!!
+zenil.de: true
+!!! [91] zenilde: true !!!
+zorai.de: false
+abacon.de: true
+[0] abaconde: true
+abaxoi.de: true
+[1] abaxoide: true
+acaroi.de: true
+[2] acaroide: true
+acidoi.de: true
+[3] acidoide: true
+aclami.de: true
+[4] aclamide: true
+acrida.de: true
+[5] acridade: true
+acripe.de: true
+[6] acripede: true
+acritu.de: true
+[7] acritude: true
+acteno.de: false
+.acuida.de: true
+[9] acuidade: true
+adelai.de: false
+.adenoi.de: true
+[11] adenoide: true
+adonai.de: false
+.adonia.de: false
+.aeropo.de: true
+[14] aeropode: true
+agamoi.de: true
+[15] agamoide: true
+agatoi.de: true
+[16] agatoide: true
+agrafi.de: true
+[17] agrafide: true
+ajugoi.de: true
+[18] ajugoide: true
+albipe.de: true
+[19] albipede: true
+aleiro.de: true
+[20] aleirode: true
+aleuro.de: true
+[21] aleurode: true
+alfeni.de: true
+[22] alfenide: true
+alisoi.de: true
+[23] alisoide: true
+altitu.de: false
+.alvaia.de: true
+[25] alvaiade: true
+alvala.de: false
+.amaroi.de: true
+[27] amaroide: true
+ambili.de: true
+[28] ambilide: true
+ambitu.de: true
+[29] ambitude: true
+ameboi.de: true
+[30] ameboide: true
+amiboi.de: true
+[31] amiboide: true
+androi.de: false
+.anecoi.de: true
+[33] anecoide: true
+aneroi.de: true
+[34] aneroide: true
+anfipo.de: true
+[35] anfipode: true
+anisoi.de: true
+[36] anisoide: true
+antipo.de: false
+.anuida.de: true
+[38] anuidade: true
+araqui.de: true
+[39] araquide: true
+arbelo.de: false
+.arfaxa.de: true
+[41] arfaxade: true
+ariloi.de: true
+[42] ariloide: true
+aristi.de: false
+.artemi.de: true
+[44] artemide: true
+asaroi.de: true
+[45] asaroide: true
+ascari.de: false
+.aseida.de: true
+[47] aseidade: true
+asnida.de: true
+[48] asnidade: true
+astroi.de: false
+.atenai.de: true
+[50] atenaide: true
+atetoi.de: true
+[51] atetoide: true
+atripe.de: true
+[52] atripede: true
+axonoi.de: true
+[53] axonoide: true
+azotoi.de: true
+[54] azotoide: true
+azuloi.de: true
+[55] azuloide: true
+bacari.de: true
+[56] bacaride: true
+bactri.de: true
+[57] bactride: true
+balani.de: false
+.bantoi.de: true
+[59] bantoide: true
+barida.de: false
+.basida.de: true
+[61] basidade: true
+bauqui.de: true
+[62] bauquide: true
+belopo.de: true
+[63] belopode: true
+belver.de: false
+.berebe.de: false
+.berlin.de: false
+.bigara.de: true
+[67] bigarade: true
+bilebo.de: true
+[68] bilebode: true
+bilioi.de: true
+[69] bilioide: true
+bissoi.de: true
+[70] bissoide: true
+bolboi.de: true
+[71] bolboide: true
+bonafi.de: false
+.bracoi.de: true
+[73] bracoide: true
+budida.de: true
+[74] budidade: true
+bugroi.de: true
+[75] bugroide: true
+bulboi.de: true
+[76] bulboide: true
+butori.de: true
+[77] butoride: true
+cacabi.de: true
+[78] cacabide: true
+cachon.de: true
+[79] cachonde: true
+cachun.de: true
+[80] cachunde: true
+cactoi.de: true
+[81] cactoide: true
+calati.de: true
+[82] calatide: true
+caltoi.de: true
+[83] caltoide: true
+cambon.de: true
+[84] cambonde: true
+candin.de: false
+.caquin.de: true
+[86] caquinde: true
+carida.de: false
+.caroti.de: true
+[88] carotide: true
+carpoi.de: true
+[89] carpoide: true
+catopo.de: false
+.caulio.de: true
+[91] cauliode: true
+cauloi.de: true
+[92] cauloide: true
+cavida.de: false
+.celepo.de: true
+[94] celepode: true
+celopo.de: true
+[95] celopode: true
+cenopo.de: true
+[96] cenopode: true
+cercni.de: true
+[97] cercnide: true
+ceriti.de: true
+[98] ceritide: true
+cestoi.de: true
+[99] cestoide: true
+cetili.de: true
+[100] cetilide: true
+chassi.de: false
+.chefoi.de: true
+[102] chefoide: true
+ciamoi.de: true
+[103] ciamoide: true
+cianoi.de: true
+[104] cianoide: true
+ciatoi.de: true
+[105] ciatoide: true
+cicloi.de: true
+[106] cicloide: true
+cicnoi.de: true
+[107] cicnoide: true
+cilipe.de: true
+[108] cilipede: true
+ciperi.de: true
+[109] ciperide: true
+cissoi.de: true
+[110] cissoide: true
+cistoi.de: true
+[111] cistoide: true
+ciuroi.de: true
+[112] ciuroide: true
+civida.de: true
+[113] cividade: true
+clenoi.de: true
+[114] clenoide: true
+clinoi.de: true
+[115] clinoide: true
+cloroi.de: true
+[116] cloroide: true
+clotil.de: false
+.clotoi.de: true
+[118] clotoide: true
+coanoi.de: true
+[119] coanoide: true
+comida.de: false
+.concoi.de: false
+.concor.de: false
+.confra.de: true
+[123] confrade: true
+copepo.de: true
+[124] copepode: true
+cordoi.de: true
+[125] cordoide: true
+coreoi.de: true
+[126] coreoide: true
+corioi.de: true
+[127] corioide: true
+cormoi.de: true
+[128] cormoide: true
+coroni.de: true
+[129] coronide: true
+corvoi.de: true
+[130] corvoide: true
+cotida.de: true
+[131] cotidade: true
+coxipe.de: true
+[132] coxipede: true
+coxopo.de: true
+[133] coxopode: true
+cricoi.de: true
+[134] cricoide: true
+crinoi.de: true
+[135] crinoide: true
+cruzoi.de: true
+[136] cruzoide: true
+ctenoi.de: true
+[137] ctenoide: true
+cuproi.de: true
+[138] cuproide: true
+dacrio.de: true
+[139] dacriode: true
+dasipo.de: false
+.decapo.de: false
+.deltoi.de: true
+[142] deltoide: true
+demita.de: false
+.dermoi.de: true
+[144] dermoide: true
+desmoi.de: true
+[145] desmoide: true
+diapsi.de: true
+[146] diapside: true
+dicopo.de: true
+[147] dicopode: true
+dilepi.de: true
+[148] dilepide: true
+diploi.de: true
+[149] diploide: true
+diquen.de: true
+[150] diquende: true
+discoi.de: true
+[151] discoide: true
+dodoni.de: false
+.ecbola.de: true
+[153] ecbolade: true
+egesta.de: true
+[154] egestade: true
+elanoi.de: true
+[155] elanoide: true
+endopo.de: true
+[156] endopode: true
+energi.de: false
+.enidri.de: true
+[158] enidride: true
+epuloi.de: true
+[159] epuloide: true
+equida.de: false
+.equini.de: false
+.equioi.de: true
+[162] equioide: true
+equipe.de: false
+.ergati.de: true
+[164] ergatide: true
+ericoi.de: true
+[165] ericoide: true
+erinoi.de: true
+[166] erinoide: true
+eriopo.de: true
+[167] eriopode: true
+erucoi.de: true
+[168] erucoide: true
+escafi.de: true
+[169] escafide: true
+esfeco.de: true
+[170] esfecode: true
+espilo.de: true
+[171] espilode: true
+esteno.de: false
+.estida.de: false
+.estroi.de: true
+[174] estroide: true
+eucari.de: true
+[175] eucaride: true
+eufoti.de: true
+[176] eufotide: true
+eumeni.de: false
+.euploi.de: true
+[178] euploide: true
+euripe.de: true
+[179] euripede: true
+fasmoi.de: true
+[180] fasmoide: true
+fealda.de: true
+[181] fealdade: true
+ferida.de: false
+.fibroi.de: true
+[183] fibroide: true
+fielda.de: true
+[184] fieldade: true
+filopo.de: true
+[185] filopode: true
+fimato.de: false
+.finida.de: false
+.finitu.de: false
+.fisali.de: false
+.fisapo.de: true
+[190] fisapode: true
+fisopo.de: true
+[191] fisopode: true
+fixida.de: true
+[192] fixidade: true
+flomoi.de: true
+[193] flomoide: true
+fofida.de: true
+[194] fofidade: true
+fungoi.de: true
+[195] fungoide: true
+fusipe.de: true
+[196] fusipede: true
+gabroi.de: true
+[197] gabroide: true
+gafida.de: true
+[198] gafidade: true
+galato.de: false
+.galeoi.de: true
+[200] galeoide: true
+gastro.de: false
+.ginopo.de: true
+[202] ginopode: true
+glenoi.de: true
+[203] glenoide: true
+globoi.de: true
+[204] globoide: true
+gobioi.de: true
+[205] gobioide: true
+gonopo.de: true
+[206] gonopode: true
+graioi.de: true
+[207] graioide: true
+gramon.de: false
+.grecoi.de: true
+[209] grecoide: true
+grupoi.de: true
+[210] grupoide: true
+habitu.de: false
+.haploi.de: true
+[212] haploide: true
+hebetu.de: true
+[213] hebetude: true
+helcoi.de: true
+[214] helcoide: true
+helioi.de: true
+[215] helioide: true
+abacon.de: true
+[0] abaconde: true
+abaxoi.de: true
+[1] abaxoide: true
+acaroi.de: true
+[2] acaroide: true
+acidoi.de: true
+[3] acidoide: true
+aclami.de: true
+[4] aclamide: true
+acrida.de: true
+[5] acridade: true
+acripe.de: true
+[6] acripede: true
+acritu.de: true
+[7] acritude: true
+acteno.de: false
+.acuida.de: true
+[9] acuidade: true
+adelai.de: false
+.adenoi.de: true
+[11] adenoide: true
+adonai.de: false
+.adonia.de: false
+.aeropo.de: true
+[14] aeropode: true
+agamoi.de: true
+[15] agamoide: true
+agatoi.de: true
+[16] agatoide: true
+agrafi.de: true
+[17] agrafide: true
+ajugoi.de: true
+[18] ajugoide: true
+albipe.de: true
+[19] albipede: true
+aleiro.de: true
+[20] aleirode: true
+aleuro.de: true
+[21] aleurode: true
+alfeni.de: true
+[22] alfenide: true
+alisoi.de: true
+[23] alisoide: true
+altitu.de: false
+.alvaia.de: true
+[25] alvaiade: true
+alvala.de: false
+.amaroi.de: true
+[27] amaroide: true
+ambili.de: true
+[28] ambilide: true
+ambitu.de: true
+[29] ambitude: true
+ameboi.de: true
+[30] ameboide: true
+amiboi.de: true
+[31] amiboide: true
+androi.de: false
+.anecoi.de: true
+[33] anecoide: true
+aneroi.de: true
+[34] aneroide: true
+anfipo.de: true
+[35] anfipode: true
+anisoi.de: true
+[36] anisoide: true
+antipo.de: false
+.anuida.de: true
+[38] anuidade: true
+araqui.de: true
+[39] araquide: true
+arbelo.de: false
+.arfaxa.de: true
+[41] arfaxade: true
+ariloi.de: true
+[42] ariloide: true
+aristi.de: false
+.artemi.de: true
+[44] artemide: true
+asaroi.de: true
+[45] asaroide: true
+ascari.de: false
+.aseida.de: true
+[47] aseidade: true
+asnida.de: true
+[48] asnidade: true
+astroi.de: false
+.atenai.de: true
+[50] atenaide: true
+atetoi.de: true
+[51] atetoide: true
+atripe.de: true
+[52] atripede: true
+axonoi.de: true
+[53] axonoide: true
+azotoi.de: true
+[54] azotoide: true
+azuloi.de: true
+[55] azuloide: true
+bacari.de: true
+[56] bacaride: true
+bactri.de: true
+[57] bactride: true
+balani.de: false
+.bantoi.de: true
+[59] bantoide: true
+barida.de: false
+.basida.de: true
+[61] basidade: true
+bauqui.de: true
+[62] bauquide: true
+belopo.de: true
+[63] belopode: true
+belver.de: false
+.berebe.de: false
+.berlin.de: false
+.bigara.de: true
+[67] bigarade: true
+bilebo.de: true
+[68] bilebode: true
+bilioi.de: true
+[69] bilioide: true
+bissoi.de: true
+[70] bissoide: true
+bolboi.de: true
+[71] bolboide: true
+bonafi.de: false
+.bracoi.de: true
+[73] bracoide: true
+budida.de: true
+[74] budidade: true
+bugroi.de: true
+[75] bugroide: true
+bulboi.de: true
+[76] bulboide: true
+butori.de: true
+[77] butoride: true
+cacabi.de: true
+[78] cacabide: true
+cachon.de: true
+[79] cachonde: true
+cachun.de: true
+[80] cachunde: true
+cactoi.de: true
+[81] cactoide: true
+calati.de: true
+[82] calatide: true
+caltoi.de: true
+[83] caltoide: true
+cambon.de: true
+[84] cambonde: true
+candin.de: false
+.caquin.de: true
+[86] caquinde: true
+carida.de: false
+.caroti.de: true
+[88] carotide: true
+carpoi.de: true
+[89] carpoide: true
+catopo.de: false
+.caulio.de: true
+[91] cauliode: true
+cauloi.de: true
+[92] cauloide: true
+cavida.de: false
+.celepo.de: true
+[94] celepode: true
+celopo.de: true
+[95] celopode: true
+cenopo.de: true
+[96] cenopode: true
+cercni.de: true
+[97] cercnide: true
+ceriti.de: true
+[98] ceritide: true
+cestoi.de: true
+[99] cestoide: true
+cetili.de: true
+[100] cetilide: true
+chassi.de: false
+.chefoi.de: true
+[102] chefoide: true
+ciamoi.de: true
+[103] ciamoide: true
+cianoi.de: true
+[104] cianoide: true
+ciatoi.de: true
+[105] ciatoide: true
+cicloi.de: true
+[106] cicloide: true
+cicnoi.de: true
+[107] cicnoide: true
+cilipe.de: true
+[108] cilipede: true
+ciperi.de: true
+[109] ciperide: true
+cissoi.de: true
+[110] cissoide: true
+cistoi.de: true
+[111] cistoide: true
+ciuroi.de: true
+[112] ciuroide: true
+civida.de: true
+[113] cividade: true
+clenoi.de: true
+[114] clenoide: true
+clinoi.de: true
+[115] clinoide: true
+cloroi.de: true
+[116] cloroide: true
+clotil.de: false
+.clotoi.de: true
+[118] clotoide: true
+coanoi.de: true
+[119] coanoide: true
+comida.de: false
+.concoi.de: false
+.concor.de: false
+.confra.de: true
+[123] confrade: true
+copepo.de: true
+[124] copepode: true
+cordoi.de: true
+[125] cordoide: true
+coreoi.de: true
+[126] coreoide: true
+corioi.de: true
+[127] corioide: true
+cormoi.de: true
+[128] cormoide: true
+coroni.de: true
+[129] coronide: true
+corvoi.de: true
+[130] corvoide: true
+cotida.de: true
+[131] cotidade: true
+coxipe.de: true
+[132] coxipede: true
+coxopo.de: true
+[133] coxopode: true
+cricoi.de: true
+[134] cricoide: true
+crinoi.de: true
+[135] crinoide: true
+cruzoi.de: true
+[136] cruzoide: true
+ctenoi.de: true
+[137] ctenoide: true
+cuproi.de: true
+[138] cuproide: true
+dacrio.de: true
+[139] dacriode: true
+dasipo.de: false
+.decapo.de: false
+.deltoi.de: true
+[142] deltoide: true
+demita.de: false
+.dermoi.de: true
+[144] dermoide: true
+desmoi.de: true
+[145] desmoide: true
+diapsi.de: true
+[146] diapside: true
+dicopo.de: true
+[147] dicopode: true
+dilepi.de: true
+[148] dilepide: true
+diploi.de: true
+[149] diploide: true
+diquen.de: true
+[150] diquende: true
+discoi.de: true
+[151] discoide: true
+dodoni.de: false
+.ecbola.de: true
+[153] ecbolade: true
+egesta.de: true
+[154] egestade: true
+elanoi.de: true
+[155] elanoide: true
+endopo.de: true
+[156] endopode: true
+energi.de: false
+.enidri.de: true
+[158] enidride: true
+epuloi.de: true
+[159] epuloide: true
+equida.de: false
+.equini.de: false
+.equioi.de: true
+[162] equioide: true
+equipe.de: false
+.ergati.de: true
+[164] ergatide: true
+ericoi.de: true
+[165] ericoide: true
+erinoi.de: true
+[166] erinoide: true
+eriopo.de: true
+[167] eriopode: true
+erucoi.de: true
+[168] erucoide: true
+escafi.de: true
+[169] escafide: true
+esfeco.de: true
+[170] esfecode: true
+espilo.de: true
+[171] espilode: true
+esteno.de: false
+.estida.de: false
+.estroi.de: true
+[174] estroide: true
+eucari.de: true
+[175] eucaride: true
+eufoti.de: true
+[176] eufotide: true
+eumeni.de: false
+.euploi.de: true
+[178] euploide: true
+euripe.de: true
+[179] euripede: true
+fasmoi.de: true
+[180] fasmoide: true
+fealda.de: true
+[181] fealdade: true
+ferida.de: false
+.fibroi.de: true
+[183] fibroide: true
+fielda.de: true
+[184] fieldade: true
+filopo.de: true
+[185] filopode: true
+fimato.de: false
+.finida.de: false
+.finitu.de: false
+.fisali.de: false
+.fisapo.de: true
+[190] fisapode: true
+fisopo.de: true
+[191] fisopode: true
+fixida.de: true
+[192] fixidade: true
+flomoi.de: true
+[193] flomoide: true
+fofida.de: true
+[194] fofidade: true
+fungoi.de: true
+[195] fungoide: true
+fusipe.de: true
+[196] fusipede: true
+gabroi.de: true
+[197] gabroide: true
+gafida.de: true
+[198] gafidade: true
+galato.de: false
+.galeoi.de: true
+[200] galeoide: true
+gastro.de: false
+.ginopo.de: true
+[202] ginopode: true
+glenoi.de: true
+[203] glenoide: true
+globoi.de: true
+[204] globoide: true
+gobioi.de: true
+[205] gobioide: true
+gonopo.de: true
+[206] gonopode: true
+graioi.de: true
+[207] graioide: true
+gramon.de: false
+.grecoi.de: true
+[209] grecoide: true
+grupoi.de: true
+[210] grupoide: true
+habitu.de: false
+.haploi.de: true
+[212] haploide: true
+hebetu.de: true
+[213] hebetude: true
+helcoi.de: true
+[214] helcoide: true
+helioi.de: true
+[215] helioide: true

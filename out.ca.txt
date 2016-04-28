@@ -1,0 +1,850 @@
+.........................................................................................................................................................
+[152] ablaca: true
+......
+[158] alfeca: true
+............
+[170] arauca: true
+..
+[172] arouca: true
+.
+[173] arreca: true
+....
+[177] avusca: true
+......
+[183] baduca: true
+.
+[184] baiuca: true
+.
+[185] bajeca: true
+.....
+[190] bazuca: true
+.
+[191] bebica: true
+.....
+[196] biloca: true
+.
+[197] birica: true
+.....
+[202] boenca: true
+..
+[204] botica: true
+....
+[208] broaca: true
+.
+[209] bruaca: true
+.
+[210] bunica: true
+.....
+[215] cafuca: true
+..............
+[229] caruca: true
+......
+[235] chulca: true
+...........
+[246] crauca: true
+.....
+[251] cuiaca: true
+........
+[259] dijica: true
+..
+[261] doenca: true
+..
+[263] eiveca: true
+...
+[266] endaca: true
+.
+[267] enjaca: true
+.
+[268] entaca: true
+.
+[269] enxaca: true
+..
+[271] ervaca: true
+.....
+[276] fajeca: true
+.....
+[281] feleca: true
+..
+[283] fetuca: true
+....
+[287] fiunca: true
+........
+[295] fubica: true
+.
+[296] fuboca: true
+...
+[299] funeca: true
+...
+[302] geoica: true
+.
+[303] goiaca: true
+.....
+[308] guasca: true
+..
+[310] guiaca: true
+....
+[314] hanuca: true
+.
+[315] herica: true
+..
+[317] iapuca: true
+.
+[318] ibiaca: true
+..
+[320] ilarca: true
+......
+[326] inhaca: true
+.
+[327] inveca: true
+.
+[328] inzica: true
+...
+[331] jabeca: true
+....
+[335] japuca: true
+..
+[337] jateca: true
+..
+[339] jetuca: true
+.
+[340] jijoca: true
+.
+[341] jitica: true
+....
+[345] lamuca: true
+.
+[346] lanuca: true
+...
+[349] laruca: true
+......
+[355] lojeca: true
+......
+[361] lutoca: true
+.....................
+[382] matuca: true
+.
+[383] maunca: true
+..
+[385] mebuca: true
+...................
+[404] motuca: true
+.....
+[409] mupeca: true
+..
+[411] muruca: true
+.....
+[416] muxeca: true
+......
+[422] negaca: true
+.
+[423] neguca: true
+...
+[426] olmeca: true
+...
+[429] onhoca: true
+.
+[430] ooteca: true
+.
+[431] oureca: true
+......
+[437] panica: true
+.....
+[442] patuca: true
+..
+[444] peanca: true
+.....
+[449] pepica: true
+...
+[452] pexica: true
+.
+[453] piarca: true
+..
+[455] pigaca: true
+.
+[456] pijuca: true
+.......
+[463] pocuca: true
+.....
+[468] poruca: true
+.
+[469] priaca: true
+.
+[470] pucuca: true
+.....
+[475] putuca: true
+...........
+[486] sajica: true
+......
+[492] sedeca: true
+..
+[494] senica: true
+....
+[498] sodica: true
+.......
+[505] taioca: true
+.....
+[510] tauoca: true
+.
+[511] tavoca: true
+...
+[514] ticuca: true
+.
+[515] tijuca: true
+...
+[518] tipuca: true
+.........
+[527] truaca: true
+..
+[529] tudaca: true
+.
+[530] tuiuca: true
+.
+[531] tunica: true
+...
+[534] uapaca: true
+.
+[535] uapuca: true
+.
+[536] unhaca: true
+.
+[537] urraca: true
+.
+[538] uruoca: true
+.......
+[545] xereca: true
+..
+[547] xitaca: true
+.
+[548] xixica: true
+.
+[549] xoroca: true
+..
+[551] zaruca: true
+.
+[552] zoteca: true
+...
+[555] adicica: true
+.
+[556] afavaca: true
+....
+[560] alenica: true
+.
+[561] alferca: true
+.
+[562] alharca: true
+.
+[563] alhorca: true
+.
+[564] alitica: true
+...
+[567] alverca: true
+.
+[568] amalaca: true
+..
+[570] amauaca: true
+...
+[573] andanca: true
+...
+[576] aramaca: true
+.
+[577] arapoca: true
+.
+[578] arapuca: true
+.
+[579] ararica: true
+..
+[581] araveca: true
+.
+[582] areosca: true
+.
+[583] aritica: true
+..
+[585] arumaca: true
+.
+[586] asiarca: true
+...
+[589] aularca: true
+.
+[590] axaraca: true
+.
+[591] babanca: true
+.
+[592] babauca: true
+..
+[594] baianca: true
+.
+[595] bainica: true
+.
+[596] bajunca: true
+......
+[602] batanca: true
+.
+[603] bebinca: true
+.
+[604] beicoca: true
+.
+[605] belfaca: true
+..
+[607] benteca: true
+.
+[608] bernica: true
+.
+[609] bespica: true
+.
+[610] betouca: true
+..
+[612] bilhoca: true
+.
+[613] bilosca: true
+.
+[614] biqueca: true
+.
+[615] birosca: true
+.
+[616] bispica: true
+.
+[617] bisteca: true
+.
+[618] bitruca: true
+.
+[619] bochaca: true
+..
+[621] bonsuca: true
+...
+[624] boudica: true
+.
+[625] brasuca: true
+...
+[628] burjaca: true
+..
+[630] caapuca: true
+.
+[631] caatica: true
+..
+[633] cachoca: true
+.
+[634] cachuca: true
+.
+[635] cadurca: true
+.
+[636] caganca: true
+.
+[637] caianca: true
+.
+[638] caicaca: true
+...
+[641] caldaca: true
+.
+[642] calmica: true
+.
+[643] cambaca: true
+...
+[646] camoeca: true
+.
+[647] camuaca: true
+.
+[648] camueca: true
+.
+[649] camurca: true
+.
+[650] canaica: true
+...
+[653] cardoca: true
+...
+[656] carnica: true
+.
+[657] carnuca: true
+...
+[660] carruca: true
+.
+[661] casarca: true
+.....
+[666] chapeca: true
+.
+[667] chianca: true
+...
+[670] chorica: true
+..
+[672] comarca: true
+.
+[673] combaca: true
+...
+[676] cornaca: true
+.
+[677] corrica: true
+.
+[678] cousica: true
+.
+[679] covanca: true
+.
+[680] crejica: true
+.
+[681] crifeca: true
+.
+[682] crucica: true
+.
+[683] cualica: true
+.
+[684] cultica: true
+.
+[685] cumbaca: true
+.
+[686] cumbeca: true
+.
+[687] cumbica: true
+.
+[688] cunarca: true
+.
+[689] curiaca: true
+.
+[690] currica: true
+.
+[691] curuaca: true
+.
+[692] curvaca: true
+.
+[693] cussuca: true
+..
+[695] desmuca: true
+.
+[696] dialaca: true
+.
+[697] dicerca: true
+.
+[698] dombica: true
+..
+[700] dorasca: true
+..
+[702] enleaca: true
+..
+[704] enxarca: true
+.
+[705] ericica: true
+.
+[706] esmiuca: true
+.
+[707] estanca: true
+.
+[708] etnarca: true
+.
+[709] exoteca: true
+.
+[710] fachaca: true
+.
+[711] fachoca: true
+.
+[712] faianca: true
+.
+[713] faienca: true
+..
+[715] fanzoca: true
+.
+[716] fatiaca: true
+.
+[717] fedenca: true
+..
+[719] festuca: true
+..
+[721] figanca: true
+.
+[722] filanca: true
+..
+[724] fitanca: true
+.
+[725] folerca: true
+.
+[726] folheca: true
+.
+[727] fondica: true
+.
+[728] fonisca: true
+...
+[731] forleca: true
+..
+[733] forreca: true
+.
+[734] fuganca: true
+.
+[735] fumbeca: true
+.
+[736] furreca: true
+.
+[737] furrica: true
+.
+[738] fuzarca: true
+..
+[740] galhaca: true
+.
+[741] galhuca: true
+.
+[742] garauca: true
+...
+[745] ginarca: true
+.
+[746] goitaca: true
+.
+[747] gonarca: true
+.
+[748] grimaca: true
+.
+[749] guaiaca: true
+.
+[750] guajica: true
+.
+[751] guanaca: true
+.
+[752] guapeca: true
+.
+[753] guaruca: true
+.
+[754] guaxica: true
+.
+[755] guiraca: true
+.
+[756] haltica: true
+...
+[759] holerca: true
+..
+[761] iboboca: true
+.
+[762] inetica: true
+.
+[763] ipojuca: true
+.
+[764] irapoca: true
+.
+[765] iriceca: true
+..
+[767] itamaca: true
+.
+[768] itapuca: true
+.
+[769] jagonca: true
+..
+[771] jaupoca: true
+.
+[772] jerarca: true
+..
+[774] jipioca: true
+.
+[775] jipooca: true
+.
+[776] juapoca: true
+.
+[777] jurueca: true
+...
+[780] lagasca: true
+..
+[782] lamisca: true
+...
+[785] laqueca: true
+..
+[787] leplica: true
+.
+[788] lequeca: true
+.
+[789] licenca: true
+.
+[790] limpaca: true
+.
+[791] linhaca: true
+.
+[792] loiraca: true
+.
+[793] luxanca: true
+.
+[794] luzenca: true
+.
+[795] machaca: true
+.
+[796] magaica: true
+...
+[799] maiorca: true
+.
+[800] maipoca: true
+..
+[802] maituca: true
+.............
+[815] margaca: true
+......
+[821] mastuca: true
+...
+[824] matusca: true
+.
+[825] mazorca: true
+..
+[827] medrica: true
+..
+[829] membeca: true
+.
+[830] menaica: true
+...
+[833] merarca: true
+.
+[834] merreca: true
+.
+[835] meruoca: true
+.
+[836] micreca: true
+.
+[837] milhaca: true
+..
+[839] mirmica: true
+.
+[840] moalaca: true
+..
+[842] molhaca: true
+..
+[844] mombuca: true
+......
+[850] mucuica: true
+.
+[851] mucuoca: true
+...
+[854] mumbica: true
+.
+[855] mumbuca: true
+..
+[857] munduca: true
+..
+[859] murraca: true
+.
+[860] musgaca: true
+.
+[861] mussaca: true
+.
+[862] mussuca: true
+.
+[863] mutanca: true
+.
+[864] nagaica: true
+..
+[866] narosca: true
+.
+[867] negarca: true
+.
+[868] nerusca: true
+.
+[869] nevasca: true
+.
+[870] nevoaca: true
+.
+[871] nhaneca: true
+.
+[872] nhanica: true
+.
+[873] nianeca: true
+.
+[874] nomarca: true
+.
+[875] notolca: true
+.
+[876] novenca: true
+.
+[877] oporica: true
+.
+[878] oreoica: true
+.
+[879] ouvenca: true
+.
+[880] oxiteca: true
+.
+[881] pagarca: true
+.
+[882] palhoca: true
+..
+[884] papanca: true
+..
+[886] paranca: true
+..
+[888] parbica: true
+...
+[891] patruca: true
+.
+[892] pedauca: true
+.
+[893] peidoca: true
+.
+[894] peitaca: true
+.
+[895] peitica: true
+.
+[896] pepoaca: true
+.
+[897] pepuaca: true
+....
+[901] pernuca: true
+.
+[902] perruca: true
+.
+[903] pertica: true
+..
+[905] piacoca: true
+.
+[906] picanca: true
+.
+[907] pinhoca: true
+.
+[908] piraaca: true
+..
+[910] pirosca: true
+.
+[911] pitaica: true
+.
+[912] pitanca: true
+.
+[913] polieca: true
+..
+[915] poqueca: true
+.
+[916] porcoca: true
+.
+[917] possuca: true
+.
+[918] potanca: true
+.
+[919] predica: true
+.
+[920] prefica: true
+.
+[921] prexeca: true
+.
+[922] proenca: true
+...
+[925] pubarca: true
+.
+[926] pujanca: true
+.
+[927] quereca: true
+.
+[928] quibaca: true
+..
+[930] quicaca: true
+.
+[931] quicuca: true
+.
+[932] quifaca: true
+.
+[933] quifuca: true
+.
+[934] quinica: true
+.
+[935] quirica: true
+.
+[936] quitaca: true
+.
+[937] quizaca: true
+.
+[938] rabanca: true
+.
+[939] ranhoca: true
+.
+[940] rapanca: true
+.
+[941] rapioca: true
+.
+[942] redoica: true
+.
+[943] redouca: true
+..
+[945] ressoca: true
+.
+[946] rodoica: true
+.
+[947] rodouca: true
+.
+[948] rolanca: true
+..
+[950] ruivaca: true
+.
+[951] sabenca: true
+...
+[954] sanjica: true
+.
+[955] sarguca: true
+.
+[956] satarca: true
+...
+[959] silerca: true
+.
+[960] sinarca: true
+.
+[961] siriaca: true
+....
+[965] sobesca: true
+.
+[966] sunhaca: true
+..
+[968] taipoca: true
+.
+[969] tairoca: true
+..
+[971] tambica: true
+....
+[975] tapuoca: true
+.
+[976] tarruca: true
+.
+[977] teipoca: true
+.
+[978] telarca: true
+.
+[979] terarca: true
+.
+[980] terluca: true
+..
+[982] tibraca: true
+..
+[984] tipisca: true
+.
+[985] tolteca: true
+.
+[986] toparca: true
+.
+[987] trapuca: true
+.
+[988] trelica: true
+.
+[989] tuapoca: true
+.
+[990] tubanca: true
+.
+[991] tuiaica: true
+.
+[992] tuiroca: true
+.
+[993] uaitaca: true
+.
+[994] uramaca: true
+.
+[995] urapuca: true
+.
+[996] urucuca: true
+.
+[997] valenca: true
+...
+[1000] varasca: true
+...
+[1003] velisca: true
+..
+[1005] vespica: true
+.
+[1006] vinheca: true
+.
+[1007] vinhuca: true
+.
+[1008] virosca: true
+.
+[1009] vivenca: true
+.
+[1010] xanduca: true
+..
+[1012] zincica: true
+.
+[1013] zoetica: true
+.
+[1014] zondoca: true
+.
+[1015] zooteca: true
+.
+[1016] zuleica: true

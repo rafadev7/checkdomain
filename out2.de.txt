@@ -1,0 +1,140 @@
+orneo.de: true
+!!! [0] orneode: true !!!
+ortoi.de: true
+!!! [1] ortoide: true !!!
+osiri.de: true
+!!! [2] osiride: true !!!
+ostei.de: false
+.osten.de: false
+.ovoti.de: true
+!!! [5] ovotide: true !!!
+oxali.de: false
+.ozoni.de: false
+.pempa.de: true
+!!! [8] pempade: true !!!
+pepti.de: false
+.perin.de: false
+.peroi.de: true
+!!! [11] peroide: true !!!
+persi.de: false
+.picno.de: true
+!!! [13] picnode: true !!!
+picoi.de: true
+!!! [14] picoide: true !!!
+pieda.de: true
+!!! [15] piedade: true !!!
+pieri.de: false
+.piroi.de: true
+!!! [17] piroide: true !!!
+pisoi.de: true
+!!! [18] pisoide: true !!!
+pisso.de: true
+!!! [19] pissode: true !!!
+pitia.de: true
+!!! [20] pitiade: true !!!
+pleia.de: false
+.podoi.de: true
+!!! [22] podoide: true !!!
+polia.de: false
+.polii.de: true
+!!! [24] poliide: true !!!
+proti.de: false
+.prove.de: false
+.psali.de: true
+!!! [27] psalide: true !!!
+pseca.de: true
+!!! [28] psecade: true !!!
+psico.de: false
+.pteri.de: true
+!!! [30] pteride: true !!!
+quipe.de: false
+.rabal.de: false
+.ragoi.de: true
+!!! [33] ragoide: true !!!
+ramal.de: false
+.ranoi.de: false
+.rapso.de: false
+.rebel.de: false
+.riten.de: false
+.riton.de: false
+.rizoi.de: true
+!!! [40] rizoide: true !!!
+rodoi.de: false
+.sameo.de: false
+.sarco.de: false
+.sauda.de: false
+.senoi.de: false
+.sepsi.de: false
+.sifoi.de: true
+!!! [47] sifoide: true !!!
+silfi.de: true
+!!! [48] silfide: true !!!
+simpo.de: false
+.soida.de: false
+.tacoi.de: true
+!!! [51] tacoide: true !!!
+talmu.de: true
+!!! [52] talmude: true !!!
+taloi.de: true
+!!! [53] taloide: true !!!
+tanai.de: true
+!!! [54] tanaide: true !!!
+tanoi.de: false
+.taqui.de: true
+!!! [56] taquide: true !!!
+teroi.de: true
+!!! [57] teroide: true !!!
+tetra.de: false
+.tiaro.de: true
+!!! [59] tiarode: true !!!
+tifoi.de: true
+!!! [60] tifoide: true !!!
+tigri.de: false
+.tiroi.de: true
+!!! [62] tiroide: true !!!
+tolpi.de: false
+.toroi.de: true
+!!! [64] toroide: true !!!
+toxoi.de: true
+!!! [65] toxoide: true !!!
+treno.de: false
+.triba.de: false
+.trigo.de: false
+.trino.de: false
+.tripo.de: false
+.trofi.de: false
+.ulcoi.de: true
+!!! [72] ulcoide: true !!!
+umida.de: true
+!!! [73] umidade: true !!!
+unipe.de: true
+!!! [74] unipede: true !!!
+upgra.de: false
+.uropo.de: true
+!!! [76] uropode: true !!!
+vaida.de: false
+.valoi.de: true
+!!! [78] valoide: true !!!
+vedoi.de: true
+!!! [79] vedoide: true !!!
+verda.de: false
+.vilda.de: false
+.viroi.de: true
+!!! [82] viroide: true !!!
+virtu.de: false
+.vobor.de: true
+!!! [84] voborde: true !!!
+vocoi.de: true
+!!! [85] vocoide: true !!!
+voivo.de: false
+.vonta.de: false
+.xifoi.de: true
+!!! [88] xifoide: true !!!
+xiloi.de: true
+!!! [89] xiloide: true !!!
+zenai.de: true
+!!! [90] zenaide: true !!!
+zenil.de: true
+!!! [91] zenilde: true !!!
+zorai.de: false
+.
