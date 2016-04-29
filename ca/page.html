@@ -1,0 +1,1301 @@
+ <!DOCTYPE html><html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Register a Domain</title>
+<link href="/local/bootstrap-theme.min.css" rel="stylesheet"/>
+<link href="/local/bootstrap.min.css" rel="stylesheet"/>
+<link href="/local/dataTables.bootstrap.min.css" rel="stylesheet"/>
+<link href="/local/custom.css" rel="stylesheet"/>
+
+<script type="text/JavaScript">
+<!--
+//directory root 
+ var root= "/en";
+ var imgdir = "/local/images";
+//-->
+</script>
+
+<script type="text/Javascript">
+<!-- 
+// To prevent multiple form submission
+		var submitted = false;
+		function submitCheck(){
+			if (submitted) {
+				alert("You have already submitted this transaction. Processing may take up to 2 minutes. Please be patient....");
+				return false;
+			}
+			else {
+				submitted = true;
+				return true;
+			}
+		}
+//-->
+</script>
+	
+</head>
+
+<body id="pageBody" style="overflow-x:hidden;"><!---->
+
+<div id="fullHeader" class="container desktopdisplay">
+
+<div id="Header">
+
+	
+<div id="alert">
+	
+<div data-index="1" id="alert_no_1" data-already-viewed="1" data-alert-type="alert_bulletin" data-alert-id="1" class="alert_block alert_green hiddenAlert">
+	<div class="alert_content">
+		<div class="alert" style="text-shadow:none;box-shadow:none;width:85%;">
+		<span class="alert_level">Technology and the TPP: What&#39;s At Stake</span>
+		<span class="separator"> </span>
+		<span style="color:#fff;font-weight:normal;">A panel discussion hosted by University of Ottawa Video <a href="https://www.youtube.com/watch?v=4YgQuoOV6tg" target="_blank">Here </a></span>
+		</div>	
+		<div class="alert_pager">
+		<a href="javascript:void(0);" class="prev disabled" title="Previous">&lt;</a>
+		<span class="counter">
+		<span class="counter_prev_1">1</span>/<span class="counter_next_1">1</span>
+		</span>
+		<a href="javascript:void(0);" class="next disabled" title="Next">&gt;</a>
+		<span class="close" style="opacity:1;">
+		<a href="javascript:void(0);" class="icon-remove"><img src="/local/images/redx_alert.png" alt="Hide" title="Hide"/></a>
+		</span>		
+		</div>
+	</div>
+</div>
+
+
+
+</div>
+
+<div id="TopBar" style="text-align:center;"><a id="showHideAlert"><img style="vertical-align:top;" src="/local/images/expand.png" alt="Show" title="Show"/></a></div>
+	
+
+<script>
+// Check browser support
+if (typeof(Storage) !== "undefined") {
+	/* This is to set active news on page change */
+	var activeNewsNo = sessionStorage.getItem("activeNews");
+    if (activeNewsNo == null) {
+			document.getElementById("alert_no_1").classList.remove('hiddenAlert');
+			document.getElementById("alert_no_1").classList.add('activeAlert');
+	} else {
+			document.getElementById("alert_no_1").classList.remove('activeAlert');
+			document.getElementById("alert_no_1").classList.add('hiddenAlert');
+			document.getElementById("alert_no_"+activeNewsNo).classList.remove('hiddenAlert');
+			document.getElementById("alert_no_"+activeNewsNo).classList.add('activeAlert');
+	} 
+	/* This is to keep open close status on page change */
+	var alertStatus = sessionStorage.getItem("alertHide");
+    if (alertStatus == 1) {
+		document.getElementById('alert').style.display ='none';
+		document.getElementById('TopBar').style.display ='block';
+	} else { 
+		document.getElementById('alert').style.display ='block';
+		document.getElementById('TopBar').style.display ='none';
+	}
+} 
+</script>	
+
+<div id="Logo">
+	<a href="/"><img src="/local/images/rgc_logo.png" alt="Register.ca" title="Register.ca"/></a>
+</div>
+
+	 	
+		<form id="domainsearch_form" name="domainsearch_form" action="/en/searchaction.php" method="post">
+			<input type="hidden" name="check" value="check"/> 
+			<input id="domsearchtext" name="domsearchtext" type="hidden"/>
+			<input id="actdomsearch" name="actdomsearch" type="hidden" value="register"/>
+		</form>
+
+
+
+    <div id="domsearchfrm" style="text-align:right;float:right;">
+
+          
+		
+		<div id="headerInlineSearch" class="mainInlineSearch">
+		<form class="form-inline" id="domainsearch_form_one" name="domainsearch_form" action="/en/searchaction.php" method="post">
+			<div class="input-group">
+			<input id="domsearchfirsttext" class="form-control input-sm" name="domsearchtext" type="text" style="width:128px;" autofocus=""/><span class="spinHeader"></span>
+				<!-- Split button -->
+				<div class="input-group-addon" style="border:none;background-color:#fff;">
+				<div class="btn-group searchBtnClass"> 
+				  <button id="btnHeaderSearch" class="btn btn-danger headerRedButton" type="button">Register</button>		
+				  <button class="btn btn-danger dropdown-toggle headerRedButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+					<span class="caret"></span>
+				  </button>
+				  <ul id="ulSearchType" class="dropdown-menu" role="menu">
+					<li><a href="#" data-value="register">Register</a></li>
+					<li><a href="#" data-value="transfer">Transfer</a></li>
+					<li><a href="#" data-value="manage">Manage</a></li>
+					<li><a href="#" data-value="whois">Whois</a></li>
+				  </ul>
+				</div>
+				</div>	
+			</div>
+			<input type="hidden" name="check" value="check"/>
+			<input id="actdomsearchOne" name="actdomsearch" type="hidden" value="register"/>	
+		</form>			
+        </div>
+	
+		<div class="headerLinks">
+				<a href="/en/cart/"><div class="cartHeader" title="Shopping cart">0</div></a>
+	    	
+		</div>		
+		<div id="TopNavMenu">
+					<a class="txtUserName" href="/en/login.php">Login</a> <span style="color:#383838;">|</span> 
+			<a class="txtLoginOut" href="/en/login.php">Signup</a>	
+			
+        </div>
+		<!--div style="clear:both;"></div-->	
+          
+		<div id="headerSearch" class="mainTopSearch">
+
+		<form class="form-inline" id="domainsearch_form_second" name="domainsearch_form" action="/en/searchaction.php" method="post">
+			<div class="input-group">
+			<input id="domsearchsecondtext" name="domsearchtext" class="form-control input-sm" type="text" style="width:128px;"/><span class="spinHeader"></span>
+				<!-- Split button -->
+				<div class="input-group-addon" style="border:none;background-color:#fff;">
+				<div class="btn-group searchBtnClass">
+				  <button id="btnSecondHeaderSearch" class="btn btn-danger headerRedButton" type="button">Register</button>		
+				  <button class="btn btn-danger dropdown-toggle headerRedButton" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true">
+					<span class="caret"></span>
+				  </button>
+				  <ul id="ulSearchType2" class="dropdown-menu" role="menu">
+					<li><a href="#" data-value="register">Register</a></li>
+					<li><a href="#" data-value="transfer">Transfer</a></li>
+					<li><a href="#" data-value="manage">Manage</a></li>
+					<li><a href="#" data-value="whois">Whois</a></li>
+				  </ul>
+				</div>	
+				</div>
+			</div>
+			<input type="hidden" name="check" value="check"/>
+			<input id="actdomsearchSecond" name="actdomsearch" type="hidden" value="register"/>	
+		</form>			
+        </div>
+		
+		
+	</div>
+<div class="chatDiv">
+<div id="LiveHelp">
+<div>
+		<!-- BEGIN chat -->
+			<div id="lpButDivID-1442261089"></div>
+		<!-- END chat -->
+	</div>
+</div>
+<div class="tollFreeDiv">
+<img class="img-responsive tollFree" src="/local/images/front/header/tollfree.png" alt="Phone No" title="Phone no"/>
+</div>	
+</div>	
+
+</div> 
+
+</div>
+<div id="menuBigPanel" class="desktopdisplay"><div class="container"><div id="menubarpanel"><div id="mainmenu"><ul><li class="active" id="id10"><a href="https://www.register.ca/en/register.htm"><span>DOMAINS</span></a><div class="subnav"><ul><li class="active" id="id110"><a href="https://www.register.ca/en/register.htm">Register</a></li><li id="id120"><a href="https://www.register.ca/en/transfer.html">Transfer</a></li><li id="id130"><a href="https://www.register.ca/en/renew.html">Renew</a></li><li id="id135"><a href="https://www.register.ca/local/html/ngtld.htm">New Domain Extensions</a></li><li id="id140"><a href="https://www.register.ca/local/html/domain_extras.htm">Domain Extras</a></li><li id="id150"><a href="https://www.register.ca/local/html/whoisprivacy.htm">Whois Privacy</a></li><li id="id160"><a href="https://www.register.ca/local/html/hosting/sitebuilder.htm">Free 3 Page Website</a></li></ul></div></li><li id="id20"><a href="https://www.register.ca/local/html/hosting/" class="hide1"><span>WEB HOSTING</span></a><!--[if lte IE 7]>
+                    <a href="https://www.register.ca/local/html/hosting/"><span>WEB HOSTING
+                    <table><tr><td>
+                    <![endif]--><div class="dropdown"><ul><li id="id210"><a href="https://www.register.ca/local/html/hosting/lite.htm">Lite</a></li><li id="id220"><a href="https://www.register.ca/local/html/hosting/pro.htm">Pro</a></li><li id="id230"><a href="https://www.register.ca/local/html/hosting/business.htm">Business</a></li><li id="id240"><a href="https://www.register.ca/local/html/hosting/comparison.htm?order=1">Comparison Chart</a></li><li id="id250"><a href="https://www.register.ca/local/html/cms.htm">CMS Hosting</a></li><li id="id260"><a href="https://www.register.ca/local/html/hosting/sitebuilder.htm">Do-It-Yourself</a></li><li id="id270"><a href="https://www.register.ca/local/html/business_solutions.htm">Get A Quote</a></li></ul></div><!--[if lte IE 7]>
+                    </td></tr></table>
+                    </span></a>
+	                <![endif]--></li><li id="id30"><a href="https://www.register.ca/local/html/hosting/premiumemail.htm" class="hide1"><span>EMAIL</span></a><!--[if lte IE 7]>
+                    <a href="https://www.register.ca/local/html/hosting/premiumemail.htm"><span>EMAIL
+                    <table><tr><td>
+                    <![endif]--><div class="dropdown"><ul><li id="id310"><a href="https://www.register.ca/local/html/hosting/premiumemail.htm">Premium Email-25GB</a></li><li id="id320"><a href="https://www.register.ca/local/html/hosting/">Standard Email-1GB</a></li><li id="id330"><a href="https://www.register.ca/local/html/domain_extras.htm">Email Forwarding</a></li><li id="id340"><a href="https://www.register.ca/local/html/hosting/exchange.htm">Email Exchange</a></li></ul></div><!--[if lte IE 7]>
+                    </td></tr></table>
+                    </span></a>
+	                <![endif]--></li><li id="id40"><a href="https://www.register.ca/local/html/pricing.htm" class="hide1"><span>PRICING</span></a><!--[if lte IE 7]>
+                    <a href="https://www.register.ca/local/html/pricing.htm"><span>PRICING
+                    <table><tr><td>
+                    <![endif]--><div class="dropdown"><ul><li id="id410"><a href="https://www.register.ca/local/html/pricing.htm">Overview</a></li><li id="id420"><a href="https://www.register.ca/local/html/promotions.htm">Promotions</a></li></ul></div><!--[if lte IE 7]>
+                    </td></tr></table>
+                    </span></a>
+	                <![endif]--></li><li id="id60"><a href="https://www.register.ca/en/" class="hide1"><span>ACCOUNT MANAGEMENT</span></a><!--[if lte IE 7]>
+                    <a href="https://www.register.ca/en/"><span>ACCOUNT MANAGEMENT
+                    <table><tr><td>
+                    <![endif]--><div class="dropdown"><ul><li id="id610"><a href="https://www.register.ca/en/">Dashboard</a></li><li id="id620"><a href="https://www.register.ca/en/domains.php">My Domains</a></li><li id="id630"><a href="https://www.register.ca/en/account/">My Profile</a></li><li id="id640"><a href="https://www.register.ca/en/bulk/">Bulk Services</a></li></ul></div><!--[if lte IE 7]>
+                    </td></tr></table>
+                    </span></a>
+	                <![endif]--></li><li id="id70"><a href="https://www.register.ca/local/html/help.htm" class="hide1"><span>HELP</span></a><!--[if lte IE 7]>
+                    <a href="https://www.register.ca/local/html/help.htm"><span>HELP
+                    <table><tr><td>
+                    <![endif]--><div class="dropdown"><ul><li id="id710"><a href="https://www.register.ca/local/html/faq.htm">FAQ</a></li><li id="id720"><a href="https://www.register.ca/en/html/contact.htm">Contact Us</a></li><li id="id730"><a href="https://www.register.ca/en/whois.php">Whois Lookup</a></li><li id="id740"><a href="https://www.register.ca/en/support.php">Support Request</a></li></ul></div><!--[if lte IE 7]>
+                    </td></tr></table>
+                    </span></a>
+	                <![endif]--></li></ul></div></div></div></div><div id="menuRedBar" class="desktopdisplay" style="height:30px;"></div>
+<!--div id="menuRedBar" ></div-->
+
+
+
+<div id="mpagewrap" class="mobileDisplay" style="margin-bottom:65px;">
+
+<!--navbar-fixed-top-->
+		<div class="navbar navbar-default navbar-fixed-top removeBackground" role="navigation">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header" style="background-color:#fff;height:75px;padding-top:15px;">
+			  <button type="button" class="navbar-toggle collapsed heightNone" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" style="padding-top:15px;padding-bottom:15px;padding-left:15px;padding-right:0;" href="/"><img src="/local/images/register-logo.png" alt="Register.ca - Bridging Canada to the Internet" class="regLogoDimentions" title="Register.ca - Bridging Canada to the Internet"/></a>
+			  <a class="smallHeaderIcon" href="tel:+1-416-642-9415"><span class="glyphicon glyphicon-earphone" aria-hidden="true" style="color:#888;"></span></a>				  
+			</div>
+			
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse heightNone" id="bs-example-navbar-collapse-1" style="overflow-y:visible;">
+			  <ul class="nav navbar-nav navbar-right navbarCustomWidth"><li class="dropdown headerDropdownLink"><a style="display:inline-block;" href="https://www.register.ca/en/register.htm"><span>Domains</span></a><a href="#" data-toggle="dropdown" role="button" aria-expanded="true" class="dropdown-toggle" style="display:inline-block;padding-right:0;background-color:none;padding-left:10px;padding-bottom:2px;padding-top:2px;text-decoration: none;"><span class="glyphicon glyphicon-chevron-down headerSmallMenuIcon" aria-hidden="true"></span></a><ul class="dropdown-menu" role="menu" style="padding-top:0;padding-bottom:0;border-top:1px solid #fff;"><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/en/register.htm"><span>Register</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/en/transfer.html"><span>Transfer</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/en/renew.html"><span>Renew</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/ngtld.htm"><span>New Domain Extensions</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/domain_extras.htm"><span>Domain Extras</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/whoisprivacy.htm"><span>Whois Privacy</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/hosting/sitebuilder.htm"><span>Free 3 Page Website</span></a></li></ul></li><li class="dropdown headerDropdownLink"><a style="display:inline-block;" href="https://www.register.ca/local/html/hosting/"><span>Web Hosting</span></a><a href="#" data-toggle="dropdown" role="button" aria-expanded="true" class="dropdown-toggle" style="display:inline-block;padding-right:0;background-color:none;padding-left:10px;padding-bottom:2px;padding-top:2px;text-decoration: none;"><span class="glyphicon glyphicon-chevron-down headerSmallMenuIcon" aria-hidden="true"></span></a><ul class="dropdown-menu" role="menu" style="padding-top:0;padding-bottom:0;border-top:1px solid #fff;"><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/hosting/lite.htm"><span>Lite</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/hosting/pro.htm"><span>Pro</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/hosting/business.htm"><span>Business</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/hosting/comparison.htm?order=1"><span>Comparison Chart</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/cms.htm"><span>CMS Hosting</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/hosting/sitebuilder.htm"><span>Do-It-Yourself</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/business_solutions.htm"><span>Get A Quote</span></a></li></ul></li><li class="dropdown headerDropdownLink"><a style="display:inline-block;" href="https://www.register.ca/local/html/hosting/premiumemail.htm"><span>Email</span></a><a href="#" data-toggle="dropdown" role="button" aria-expanded="true" class="dropdown-toggle" style="display:inline-block;padding-right:0;background-color:none;padding-left:10px;padding-bottom:2px;padding-top:2px;text-decoration: none;"><span class="glyphicon glyphicon-chevron-down headerSmallMenuIcon" aria-hidden="true"></span></a><ul class="dropdown-menu" role="menu" style="padding-top:0;padding-bottom:0;border-top:1px solid #fff;"><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/hosting/premiumemail.htm"><span>Premium Email-25GB</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/hosting/"><span>Standard Email-1GB</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/domain_extras.htm"><span>Email Forwarding</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/hosting/exchange.htm"><span>Email Exchange</span></a></li></ul></li><li class="dropdown headerDropdownLink"><a style="display:inline-block;" href="https://www.register.ca/local/html/pricing.htm"><span>Pricing</span></a><a href="#" data-toggle="dropdown" role="button" aria-expanded="true" class="dropdown-toggle" style="display:inline-block;padding-right:0;background-color:none;padding-left:10px;padding-bottom:2px;padding-top:2px;text-decoration: none;"><span class="glyphicon glyphicon-chevron-down headerSmallMenuIcon" aria-hidden="true"></span></a><ul class="dropdown-menu" role="menu" style="padding-top:0;padding-bottom:0;border-top:1px solid #fff;"><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/pricing.htm"><span>Overview</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/promotions.htm"><span>Promotions</span></a></li></ul></li><li class="dropdown headerDropdownLink"><a style="display:inline-block;" href="https://www.register.ca/en/"><span>Account Management</span></a><a href="#" data-toggle="dropdown" role="button" aria-expanded="true" class="dropdown-toggle" style="display:inline-block;padding-right:0;background-color:none;padding-left:10px;padding-bottom:2px;padding-top:2px;text-decoration: none;"><span class="glyphicon glyphicon-chevron-down headerSmallMenuIcon" aria-hidden="true"></span></a><ul class="dropdown-menu" role="menu" style="padding-top:0;padding-bottom:0;border-top:1px solid #fff;"><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/en/"><span>Dashboard</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/en/domains.php"><span>My Domains</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/en/account/"><span>My Profile</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/en/bulk/"><span>Bulk Services</span></a></li></ul></li><li class="dropdown headerDropdownLink"><a style="display:inline-block;" href="https://www.register.ca/local/html/help.htm"><span>Help</span></a><a href="#" data-toggle="dropdown" role="button" aria-expanded="true" class="dropdown-toggle" style="display:inline-block;padding-right:0;background-color:none;padding-left:10px;padding-bottom:2px;padding-top:2px;text-decoration: none;"><span class="glyphicon glyphicon-chevron-down headerSmallMenuIcon" aria-hidden="true"></span></a><ul class="dropdown-menu" role="menu" style="padding-top:0;padding-bottom:0;border-top:1px solid #fff;"><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/local/html/faq.htm"><span>FAQ</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/en/html/contact.htm"><span>Contact Us</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/en/whois.php"><span>Whois Lookup</span></a></li><li><a class="mobileMenuBackgroundLinkColor" href="https://www.register.ca/en/support.php"><span>Support Request</span></a></li></ul></li></ul>			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</div>			
+</div>
+
+<div id="mmainmenu" class="mobileDisplay">
+				<a style="margin-left:5px;" class="smallSearchIcon" href="#" id="mSearch"><span class="glyphicon glyphicon-search headerGlyPad" aria-hidden="true"></span></a>				  			
+		<a class="smallHeaderLinkSize" style="float:right;" href="/en/login.php">Login/Sign Up</a>  
+		<a class="smallSearchIcon" style="margin-left:10px;" href="/en/cart/"><span class="glyphicon glyphicon-shopping-cart headerGlyPad" aria-hidden="true"></span></a>				  		
+				<div id="searchBarNoTitle" class="mobileDisplay">
+		 		
+		<div id="mobileHeaderSearchNoTitle" class="mobileSearchTopDivNoTitle">
+
+		<form class="form-inline" id="domainsearch_form_third" name="domainsearch_form" action="/en/searchaction.php" method="post">
+			<div class="input-group">
+			<input id="domsearchthirdtext" name="domsearchtext" class="form-control input-md" type="text"/><span class="spinHeader"></span>
+				<!-- Split button -->
+				<div class="input-group-addon" style="border:none;background-color:transparent;">
+				<div class="btn-group searchBtnClass">
+				  <button id="btnThirdHeaderSearch" class="btn  btn-success headerGreenButton" type="button">Register</button>		
+				  <button class="btn  btn-success dropdown-toggle headerGreenButton" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-expanded="true">
+					<span class="caret"></span>
+				  </button>
+				  <ul id="ulSearchType3" class="dropdown-menu" role="menu">
+					<li><a href="#" data-value="register">Register</a></li>
+					<li><a href="#" data-value="transfer">Transfer</a></li>
+					<li><a href="#" data-value="manage">Manage</a></li>
+					<li><a href="#" data-value="whois">Whois</a></li>
+				  </ul>
+				</div>	
+				</div>
+			</div>
+			<input type="hidden" name="check" value="check"/>
+			<input id="actdomsearchThird" name="actdomsearch" type="hidden" value="register"/>	
+		</form>			
+        </div>
+			
+		</div>				
+</div>
+
+
+
+<!-- Header-->
+	<div class="container mobileDisplay">
+
+	</div>
+
+	<div class="mainBannerTopPadding  mobileDisplay"></div>
+
+	<div class="container desktopdisplay">	
+		<h1 class="pageTitle">Register a Domain</h1>
+	</div>	
+
+
+            
+			
+				
+                
+                <!-- main content area -->
+        
+<div class="container mainPageBorder">
+
+<div class="marginTop10 form_error_message">
+     .de extension is not supported</div>
+
+
+<!-- main table start --> 
+<form name="form1" class="form-horizontal" id="form1" method="post" action="https://www.register.ca/en/register.htm">
+<input type="hidden" name="continue" value="1"/>
+	
+	<!-- main top .ca result block -->
+   	<div class="row accountCreateRow" style="margin-bottom:15px;">
+	
+						<div class="form_error_message">
+						gurataiapo.de status unknown at this time!
+					</div>
+					
+
+	</div>
+				<div class="col-md-12 resultBox marginBottom15">
+		<div class="row">
+			<div class="col-lg-6">
+					
+					<div class="row marginTop15">
+					<div class="col-sm-8">
+					<input data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Domain Available" type="checkbox" name="domains[]" value="gurataiapo.ca"/>					gurataiapo.ca					</div>
+										<div class="col-sm-4 paddingLeft15">
+						
+													<a class="noAnchorUnderline floatLeft" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="The price includes DNS manager, forwarding service and whois privacy.">
+													<span style="top:2px;" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						</a>
+													<div class="priceText">
+								<a class="noAnchorUnderline" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Promotion. 20% off for new registration">
+								<font class="registerPriceColor">$23.95</font>
+								</a>
+							</div>
+							<div class="saleClass">
+							<a class="noAnchorUnderline" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Promotion. 20% off for new registration">
+							<font style="color:#fff;">Sale</font>
+							</a>							
+							</div>
+
+											</div>		
+						
+					
+					</div>	
+				
+					
+					<div class="row marginTop15">
+					<div class="col-sm-8">
+					<input data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Domain Available" type="checkbox" name="domains[]" value="gurataiapo.org"/>					gurataiapo.org					</div>
+										<div class="col-sm-4 paddingLeft15">
+						
+													<a class="noAnchorUnderline floatLeft" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="The price includes DNS manager, forwarding service and whois privacy.">
+													<span style="top:2px;" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						</a>
+													<div class="priceText">
+								<a class="noAnchorUnderline" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Promotion. 20% off for new registration">
+								<font class="registerPriceColor">$23.95</font>
+								</a>
+							</div>
+							<div class="saleClass">
+							<a class="noAnchorUnderline" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Promotion. 20% off for new registration">
+							<font style="color:#fff;">Sale</font>
+							</a>							
+							</div>
+
+											</div>		
+						
+					
+					</div>	
+				
+					
+					<div class="row marginTop15">
+					<div class="col-sm-8">
+					<input data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Domain Available" type="checkbox" name="domains[]" value="gurataiapo.club"/>					gurataiapo.club					</div>
+										<div class="col-sm-4 paddingLeft15">
+						
+													<a class="noAnchorUnderline floatLeft" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="The price includes DNS manager, forwarding service and whois privacy.">
+													<span style="top:2px;" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						</a>
+													<span class="bluePriceColor">$29.95</span>
+											</div>		
+						
+					
+					</div>	
+				
+					
+					<div class="row marginTop15">
+					<div class="col-sm-8">
+					<input data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Domain Available" type="checkbox" name="domains[]" value="gurataiapo.quebec"/>					gurataiapo.quebec					</div>
+										<div class="col-sm-4 paddingLeft15">
+						
+													<a class="noAnchorUnderline floatLeft" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="The price includes DNS manager and forwarding service.">	
+													<span style="top:2px;" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						</a>
+													<span class="bluePriceColor">$29.95</span>
+											</div>		
+						
+					
+					</div>	
+				
+					
+			</div>
+			<div class="col-lg-6">
+									<div class="row marginTop15">
+					<div class="col-sm-8">
+					<input data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Domain Available" type="checkbox" name="domains[]" value="gurataiapo.com"/>					gurataiapo.com					</div>
+										<div class="col-sm-4 paddingLeft15">
+						
+													<a class="noAnchorUnderline floatLeft" data-placement="top" data-toggle="tooltip" data-original-title="The price includes DNS manager, forwarding service and whois privacy.">
+													<span style="top:2px;" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						</a>
+														<div class="priceText">
+								<a class="noAnchorUnderline" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Promotion. 20% off for new registration">
+								<font class="registerPriceColor">$23.95</font>
+								</a>
+								</div>
+								<div class="saleClass">
+								<a class="noAnchorUnderline" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Promotion. 20% off for new registration">
+								<font style="color:#fff;">Sale</font>
+								</a>	
+								</div>
+							
+											</div>		
+						
+					
+					</div>				
+									<div class="row marginTop15">
+					<div class="col-sm-8">
+					<input data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Domain Available" type="checkbox" name="domains[]" value="gurataiapo.net"/>					gurataiapo.net					</div>
+										<div class="col-sm-4 paddingLeft15">
+						
+													<a class="noAnchorUnderline floatLeft" data-placement="top" data-toggle="tooltip" data-original-title="The price includes DNS manager, forwarding service and whois privacy.">
+													<span style="top:2px;" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						</a>
+														<div class="priceText">
+								<a class="noAnchorUnderline" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Promotion. 20% off for new registration">
+								<font class="registerPriceColor">$23.95</font>
+								</a>
+								</div>
+								<div class="saleClass">
+								<a class="noAnchorUnderline" data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Promotion. 20% off for new registration">
+								<font style="color:#fff;">Sale</font>
+								</a>	
+								</div>
+							
+											</div>		
+						
+					
+					</div>				
+									<div class="row marginTop15">
+					<div class="col-sm-8">
+					<input data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Domain Available" type="checkbox" name="domains[]" value="gurataiapo.pro"/>					gurataiapo.pro					</div>
+										<div class="col-sm-4 paddingLeft15">
+						
+													<a class="noAnchorUnderline floatLeft" data-placement="top" data-toggle="tooltip" data-original-title="The price includes DNS manager, forwarding service and whois privacy.">
+													<span style="top:2px;" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						</a>
+													<span class="bluePriceColor">$29.95</span>
+											</div>		
+						
+					
+					</div>				
+									<div class="row marginTop15">
+					<div class="col-sm-8">
+					<input data-html="true" data-placement="top" data-toggle="tooltip" data-original-title="Domain Available" type="checkbox" name="domains[]" value="gurataiapo.today"/>					gurataiapo.today					</div>
+										<div class="col-sm-4 paddingLeft15">
+						
+													<a class="noAnchorUnderline floatLeft" data-placement="top" data-toggle="tooltip" data-original-title="The price includes DNS manager, forwarding service and whois privacy.">
+													<span style="top:2px;" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+						</a>
+													<span class="bluePriceColor">$29.95</span>
+											</div>		
+						
+					
+					</div>				
+					
+			
+			</div>
+			
+		</div>
+		</div>
+		<div style="clear:both;"></div> 
+				<div class="col-md-12 paddingLeft0">
+		<div class="col-md-12 paddingLeft0">	
+		  <span>Note: All prices above are in Canadian dollars (CAD) includes ICANN, registry fees and free<a href="/local/html/domain_extras.htm"> domain extras.</a></span>
+		</div>  
+		</div>
+				<div class="col-md-12 marginTop20 marginBottom20 paddingLeft0">
+		<!--Register for <select class="form-control input-sm" name="term">\n<option value="1"  >1 year</option><option value="2"  selected >2 years</option><option value="3"  >3 years</option><option value="4"  >4 years</option><option value="5"  >5 years</option><option value="6"  >6 years</option><option value="7"  >7 years</option><option value="8"  >8 years</option><option value="9"  >9 years</option><option value="10"  >10 years</option></select>   -->
+		<input name="reset_button" type="submit" value="Reset" class="btn btn-danger"/>
+		<input name="continue_button" type="submit" value="Continue" class="btn btn-success"/>		
+		</div>
+        		 
+	<div style="clear:both;"></div> 
+		
+		   
+   
+   
+	   
+</form>
+<!-- Doamin search form start -->
+<form class="form-horizontal" name="form1" method="post" action="https://www.register.ca/en/register.htm">
+  <div class="row marginTop10 marginBottom10">
+    <div class="col-md-4">
+      <input name="sld" type="text" class="form-control input-sm" id="sld" placeholder="Domain" value="gurataiapo"/><span id="spinner1" class="regSpinner"></span>
+    </div>
+	<div class="col-md-2 emptyTopMargin">
+		<input name="check_again" type="submit" onclick="startSpinner();" value="Check Again" class="btn btn-success"/>
+		</div>
+	<div id="bulkText" class="col-md-5 textRight">
+		<span>Please click here for <a href="/en/bulk/register/bulkreg2.php">Bulk Domain Registration</a>.</span>  
+	</div>
+  </div>
+  
+ 	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="margin-bottom:0;margin-top:30px;">
+					  	
+	  <div class="panel panel-default">
+		<div class="panel-heading" role="tab" id="headingOne">
+		  <h4 class="panel-title">
+			<a class="accordion-toggle noAnchorUnderline" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			  <span data-toggle="tooltip" data-placement="top" title="Show/Hide">Featured:</span> 
+			</a>
+		  </h4>
+		</div>
+		<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+			<div class="checkBoxRegister">
+			<input checked="" type="checkbox" id="PRO" name="PRO" onclick="checkAllBoxes(this,&#39;showhide_1&#39;)"/><span data-toggle="tooltip" data-placement="top" title="Check/Uncheck All" class="txtCheckUncheck" onclick="checkAllBoxesText(&#39;PRO&#39;,&#39;showhide_1&#39;);"> Check/Uncheck All</span>				  
+			</div>
+			<div id="showhide_1">	
+						<div class="displayFeature"><input checked="" class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="ca"/> .ca</div> 
+						<div class="displayFeature"><input checked="" class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="com"/> .com</div> 
+						<div class="displayFeature"><input checked="" class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="org"/> .org</div> 
+						<div class="displayFeature"><input checked="" class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="net"/> .net</div> 
+						<div class="displayFeature"><input checked="" class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="info"/> .info</div> 
+						<div class="displayFeature"><input checked="" class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="club"/> .club</div> 
+						<div class="displayFeature"><input checked="" class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="pro"/> .pro</div> 
+						<div class="displayFeature"><input checked="" class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="today"/> .today</div> 
+						<div class="displayFeature"><input checked="" class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="quebec"/> .quebec</div> 
+						<div class="displayFeature"><input checked="" class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="biz"/> .biz</div> 
+					</div>
+		  </div>
+		</div>
+	  </div>
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+			<hr class="hrLine"/>
+	<div class="panel panel-default marginTop15" style="border:0;border-radius:0;box-shadow:none;margin-bottom:0;">
+		<div class="panel-heading" style="background-color: #fff;border:0;color: #333; background-image: linear-gradient(to bottom, #fff 0px, #fff 100%);">
+			<h4 class="panel-title">
+				<a class="accordion-toggle collapsed noAnchorUnderline" data-toggle="collapse" href="#collapseThree">
+				<span data-toggle="tooltip" data-placement="top" title="Show/Hide"><strong>View all the supported extensions. </strong>(select max 21 to lookup)</span> 
+				</a>
+			</h4>
+		</div>
+		<div id="collapseThree" class="panel-collapse collapse">
+			<div class="panel-body">
+				<div class="panel-group" id="accordion2">
+										
+											
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle collapsed noAnchorUnderline" data-toggle="collapse" href="#span_2">
+										<span data-toggle="tooltip" data-placement="top" title="Show/Hide">Business and Finance:</span>
+									</a>
+								</h4>
+							</div>
+							<div id="span_2" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="checkBoxRegister">
+							<input type="checkbox" id="BUS" name="BUS" onclick="checkAllBoxes(this,&#39;showhide_2&#39;)"/><span data-toggle="tooltip" data-placement="top" title="Check/Uncheck All" class="txtCheckUncheck" onclick="checkAllBoxesText(&#39;BUS&#39;,&#39;showhide_2&#39;);"> Check/Uncheck All</span>				  
+							</div>
+							<div id="showhide_2">	
+								
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="pro"/> .pro</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="co"/> .co</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="expert"/> .expert</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="express"/> .express</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="company"/> .company</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="solutions"/> .solutions</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="ventures"/> .ventures</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="management"/> .management</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="industries"/> .industries</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="directory"/> .directory</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="holdings"/> .holdings</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="enterprises"/> .enterprises</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="immo"/> .immo</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="marketing"/> .marketing</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="center"/> .center</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="associates"/> .associates</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="partners"/> .partners</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="limited"/> .limited</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="exchange"/> .exchange</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="agency"/> .agency</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="business"/> .business</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="trade"/> .trade</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="careers"/> .careers</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="money"/> .money</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="deals"/> .deals</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="cheap"/> .cheap</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="bargains"/> .bargains</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="coupons"/> .coupons</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="discount"/> .discount</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="gratis"/> .gratis</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="financial"/> .financial</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="finance"/> .finance</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="tax"/> .tax</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="claims"/> .claims</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="lease"/> .lease</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="loan"/> .loan</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="loans"/> .loans</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="insure"/> .insure</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="investments"/> .investments</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="cash"/> .cash</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="credit"/> .credit</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="creditcard"/> .creditcard</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="capital"/> .capital</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="fund"/> .fund</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="win"/> .win</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="bid"/> .bid</div> 
+																
+							</div>
+								
+								</div>
+							</div>
+						</div>
+								
+											
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle collapsed noAnchorUnderline" data-toggle="collapse" href="#span_3">
+										<span data-toggle="tooltip" data-placement="top" title="Show/Hide">Professional:</span>
+									</a>
+								</h4>
+							</div>
+							<div id="span_3" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="checkBoxRegister">
+							<input type="checkbox" id="PRF" name="PRF" onclick="checkAllBoxes(this,&#39;showhide_3&#39;)"/><span data-toggle="tooltip" data-placement="top" title="Check/Uncheck All" class="txtCheckUncheck" onclick="checkAllBoxesText(&#39;PRF&#39;,&#39;showhide_3&#39;);"> Check/Uncheck All</span>				  
+							</div>
+							<div id="showhide_3">	
+								
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="pro"/> .pro</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="equipment"/> .equipment</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="parts"/> .parts</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="contractors"/> .contractors</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="boutique"/> .boutique</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="accountants"/> .accountants</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="accountant"/> .accountant</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="supply"/> .supply</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="supplies"/> .supplies</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="plumbing"/> .plumbing</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="builders"/> .builders</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="condos"/> .condos</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="construction"/> .construction</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="rentals"/> .rentals</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="repair"/> .repair</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="law"/> .law</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="legal"/> .legal</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="physio"/> .physio</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="lighting"/> .lighting</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="florist"/> .florist</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="coach"/> .coach</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="fashion"/> .fashion</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="build"/> .build</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="cleaning"/> .cleaning</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="services"/> .services</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="healthcare"/> .healthcare</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="clinic"/> .clinic</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="surgery"/> .surgery</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="dental"/> .dental</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="delivery"/> .delivery</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="flowers"/> .flowers</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="energy"/> .energy</div> 
+																
+							</div>
+								
+								</div>
+							</div>
+						</div>
+								
+											
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle collapsed noAnchorUnderline" data-toggle="collapse" href="#span_4">
+										<span data-toggle="tooltip" data-placement="top" title="Show/Hide">Lifestyle:</span>
+									</a>
+								</h4>
+							</div>
+							<div id="span_4" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="checkBoxRegister">
+							<input type="checkbox" id="LIF" name="LIF" onclick="checkAllBoxes(this,&#39;showhide_4&#39;)"/><span data-toggle="tooltip" data-placement="top" title="Check/Uncheck All" class="txtCheckUncheck" onclick="checkAllBoxesText(&#39;LIF&#39;,&#39;showhide_4&#39;);"> Check/Uncheck All</span>				  
+							</div>
+							<div id="showhide_4">	
+								
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="tips"/> .tips</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="chat"/> .chat</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="care"/> .care</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="style"/> .style</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="photography"/> .photography</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="photos"/> .photos</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="pics"/> .pics</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="life"/> .life</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="church"/> .church</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="faith"/> .faith</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="host"/> .host</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="party"/> .party</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="gift"/> .gift</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="gifts"/> .gifts</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="cards"/> .cards</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="community"/> .community</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="date"/> .date</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="dating"/> .dating</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="love"/> .love</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="wedding"/> .wedding</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="toys"/> .toys</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="glass"/> .glass</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="watch"/> .watch</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="tools"/> .tools</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="furniture"/> .furniture</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="vision"/> .vision</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="memorial"/> .memorial</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="dog"/> .dog</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="fit"/> .fit</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="fitness"/> .fitness</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="men"/> .men</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="tattoo"/> .tattoo</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="ink"/> .ink</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="garden"/> .garden</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="sexy"/> .sexy</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="shoes"/> .shoes</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="gold"/> .gold</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="diamonds"/> .diamonds</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="jewelry"/> .jewelry</div> 
+																
+							</div>
+								
+								</div>
+							</div>
+						</div>
+								
+											
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle collapsed noAnchorUnderline" data-toggle="collapse" href="#span_5">
+										<span data-toggle="tooltip" data-placement="top" title="Show/Hide">Education:</span>
+									</a>
+								</h4>
+							</div>
+							<div id="span_5" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="checkBoxRegister">
+							<input type="checkbox" id="EDU" name="EDU" onclick="checkAllBoxes(this,&#39;showhide_5&#39;)"/><span data-toggle="tooltip" data-placement="top" title="Check/Uncheck All" class="txtCheckUncheck" onclick="checkAllBoxesText(&#39;EDU&#39;,&#39;showhide_5&#39;);"> Check/Uncheck All</span>				  
+							</div>
+							<div id="showhide_5">	
+								
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="education"/> .education</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="college"/> .college</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="institute"/> .institute</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="schule"/> .schule</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="courses"/> .courses</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="school"/> .school</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="study"/> .study</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="academy"/> .academy</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="university"/> .university</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="mba"/> .mba</div> 
+																
+							</div>
+								
+								</div>
+							</div>
+						</div>
+								
+											
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle collapsed noAnchorUnderline" data-toggle="collapse" href="#span_6">
+										<span data-toggle="tooltip" data-placement="top" title="Show/Hide">Food and Drink:</span>
+									</a>
+								</h4>
+							</div>
+							<div id="span_6" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="checkBoxRegister">
+							<input type="checkbox" id="FOO" name="FOO" onclick="checkAllBoxes(this,&#39;showhide_6&#39;)"/><span data-toggle="tooltip" data-placement="top" title="Check/Uncheck All" class="txtCheckUncheck" onclick="checkAllBoxesText(&#39;FOO&#39;,&#39;showhide_6&#39;);"> Check/Uncheck All</span>				  
+							</div>
+							<div id="showhide_6">	
+								
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="pizza"/> .pizza</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="menu"/> .menu</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="coffee"/> .coffee</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="cafe"/> .cafe</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="bar"/> .bar</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="diet"/> .diet</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="rest"/> .rest</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="restaurant"/> .restaurant</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="kitchen"/> .kitchen</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="recipes"/> .recipes</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="wine"/> .wine</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="vin"/> .vin</div> 
+																
+							</div>
+								
+								</div>
+							</div>
+						</div>
+								
+											
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle collapsed noAnchorUnderline" data-toggle="collapse" href="#span_7">
+										<span data-toggle="tooltip" data-placement="top" title="Show/Hide">Technology:</span>
+									</a>
+								</h4>
+							</div>
+							<div id="span_7" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="checkBoxRegister">
+							<input type="checkbox" id="TEC" name="TEC" onclick="checkAllBoxes(this,&#39;showhide_7&#39;)"/><span data-toggle="tooltip" data-placement="top" title="Check/Uncheck All" class="txtCheckUncheck" onclick="checkAllBoxesText(&#39;TEC&#39;,&#39;showhide_7&#39;);"> Check/Uncheck All</span>				  
+							</div>
+							<div id="showhide_7">	
+								
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="tech"/> .tech</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="codes"/> .codes</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="technology"/> .technology</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="domains"/> .domains</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="email"/> .email</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="cloud"/> .cloud</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="webcam"/> .webcam</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="site"/> .site</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="website"/> .website</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="link"/> .link</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="audio"/> .audio</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="direct"/> .direct</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="network"/> .network</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="online"/> .online</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="click"/> .click</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="wiki"/> .wiki</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="support"/> .support</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="solar"/> .solar</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="digital"/> .digital</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="download"/> .download</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="equipment"/> .equipment</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="computer"/> .computer</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="graphics"/> .graphics</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="design"/> .design</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="camera"/> .camera</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="media"/> .media</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="science"/> .science</div> 
+																
+							</div>
+								
+								</div>
+							</div>
+						</div>
+								
+											
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle collapsed noAnchorUnderline" data-toggle="collapse" href="#span_8">
+										<span data-toggle="tooltip" data-placement="top" title="Show/Hide">Sports and Entertainment:</span>
+									</a>
+								</h4>
+							</div>
+							<div id="span_8" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="checkBoxRegister">
+							<input type="checkbox" id="SPO" name="SPO" onclick="checkAllBoxes(this,&#39;showhide_8&#39;)"/><span data-toggle="tooltip" data-placement="top" title="Check/Uncheck All" class="txtCheckUncheck" onclick="checkAllBoxesText(&#39;SPO&#39;,&#39;showhide_8&#39;);"> Check/Uncheck All</span>				  
+							</div>
+							<div id="showhide_8">	
+								
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="tv"/> .tv</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="today"/> .today</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="team"/> .team</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="fans"/> .fans</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="events"/> .events</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="training"/> .training</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="productions"/> .productions</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="bike"/> .bike</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="report"/> .report</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="review"/> .review</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="media"/> .media</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="exposed"/> .exposed</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="tennis"/> .tennis</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="golf"/> .golf</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="soccer"/> .soccer</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="fish"/> .fish</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="cricket"/> .cricket</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="bingo"/> .bingo</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="casino"/> .casino</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="hockey"/> .hockey</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="football"/> .football</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="racing"/> .racing</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="show"/> .show</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="run"/> .run</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="film"/> .film</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="movie"/> .movie</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="theater"/> .theater</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="guitars"/> .guitars</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="hiphop"/> .hiphop</div> 
+																
+							</div>
+								
+								</div>
+							</div>
+						</div>
+								
+											
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle collapsed noAnchorUnderline" data-toggle="collapse" href="#span_9">
+										<span data-toggle="tooltip" data-placement="top" title="Show/Hide">Geographic and Travel:</span>
+									</a>
+								</h4>
+							</div>
+							<div id="span_9" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="checkBoxRegister">
+							<input type="checkbox" id="GEO" name="GEO" onclick="checkAllBoxes(this,&#39;showhide_9&#39;)"/><span data-toggle="tooltip" data-placement="top" title="Check/Uncheck All" class="txtCheckUncheck" onclick="checkAllBoxesText(&#39;GEO&#39;,&#39;showhide_9&#39;);"> Check/Uncheck All</span>				  
+							</div>
+							<div id="showhide_9">	
+								
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="quebec"/> .quebec</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="city"/> .city</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="town"/> .town</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="zone"/> .zone</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="rent"/> .rent</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="world"/> .world</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="space"/> .space</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="global"/> .global</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="international"/> .international</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="viajes"/> .viajes</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="place"/> .place</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="villas"/> .villas</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="land"/> .land</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="tienda"/> .tienda</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="properties"/> .properties</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="estate"/> .estate</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="apartments"/> .apartments</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="maison"/> .maison</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="house"/> .house</div> 
+																
+							</div>
+								
+								</div>
+							</div>
+						</div>
+								
+											
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle collapsed noAnchorUnderline" data-toggle="collapse" href="#span_10">
+										<span data-toggle="tooltip" data-placement="top" title="Show/Hide">Variety:</span>
+									</a>
+								</h4>
+							</div>
+							<div id="span_10" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="checkBoxRegister">
+							<input type="checkbox" id="MIS" name="MIS" onclick="checkAllBoxes(this,&#39;showhide_10&#39;)"/><span data-toggle="tooltip" data-placement="top" title="Check/Uncheck All" class="txtCheckUncheck" onclick="checkAllBoxesText(&#39;MIS&#39;,&#39;showhide_10&#39;);"> Check/Uncheck All</span>				  
+							</div>
+							<div id="showhide_10">	
+								
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="xyz"/> .xyz</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="fyi"/> .fyi</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="tires"/> .tires</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="works"/> .works</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="black"/> .black</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="pink"/> .pink</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="blue"/> .blue</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="green"/> .green</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="red"/> .red</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="gold"/> .gold</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="cool"/> .cool</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="gripe"/> .gripe</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="fail"/> .fail</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="lol"/> .lol</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="wtf"/> .wtf</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="clothing"/> .clothing</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="guru"/> .guru</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="singles"/> .singles</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="gallery"/> .gallery</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="voyage"/> .voyage</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="cab"/> .cab</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="limo"/> .limo</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="systems"/> .systems</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="camp"/> .camp</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="holiday"/> .holiday</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="farm"/> .farm</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="foundation"/> .foundation</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="cruises"/> .cruises</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="flights"/> .flights</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="vacations"/> .vacations</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="catering"/> .catering</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="engineering"/> .engineering</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="pictures"/> .pictures</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="reisen"/> .reisen</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="guide"/> .guide</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="tours"/> .tours</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="plus"/> .plus</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="taxi"/> .taxi</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="one"/> .one</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="press"/> .press</div> 
+															<div class="displayFeature"><input class="emptyClass" type="checkbox" name="check_ngtld_availibity[]" value="photo"/> .photo</div> 
+																
+							</div>
+								
+								</div>
+							</div>
+						</div>
+								
+												
+				
+				</div> <!-- end of according 2 -->
+			</div><!-- end of panel body -->
+		</div><!-- end of collapseThree -->
+	</div><!-- end of second panel -->
+	</div><!-- End of mail accordion -->
+	<hr class="hrLine"/>
+	<div class="paddingLeft10">
+		<label><input onclick="toggleClass();" id="quickcheck" name="quickcheck" type="checkbox"/> Name Spinner (Suggest alternative domain names.)</label>
+	</div>
+	<div id="showhide_0" class="displayNone">
+	<div style="margin-left:20px;">
+	<span class="regSuggestionText">
+		<input class="marginTop10" type="checkbox" name="prefix"/>Add popular prefixes and suffixes
+	</span>
+	<br/>
+	<span class="regSuggestionText">
+		<input class="marginTop10" type="checkbox" name="related"/>View domain list with related keywords 
+	</span>
+	<br/>
+	<span class="regSuggestionText">
+		<input class="marginTop10" type="checkbox" name="dashes"/>View domain list with dashes
+	</span>
+	<br/>
+	<div class="form-group marginTop10 paddingLeft13">
+
+		<div class="floatLeft paddingLeft15"><span class="paddingTop5">Display</span></div>
+		<div class="col-sm-3"> 
+			<select class="form-control" name="c">
+									<option value="1">20 Records</option>
+									<option value="2">50 Records</option>
+							</select>
+		</div>
+	</div>
+	</div>
+	</div>
+		<input type="hidden" name="check" value="1"/>
+		<hr class="hrLine"/>
+	<div class="paddingLeft10 marginBottom15">
+		<label>
+			<input class="regSuggestionText" type="checkbox" checked="" name="premium_domain_display"/> Suggest pre-registered domain
+		</label>
+	</div>			  
+		
+	
+</form>
+<hr class="hrLine"/>
+
+<div class="col-md-12 marginBottom15 dashboardBox greyLight">
+      <p><a class="noAnchorUnderline"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a> If you have 
+        a <strong>large number of domains</strong> to register, try our  
+        <a href="/en/bulk/register/bulkreg2.php">Bulk Domain Registration</a> service. 
+        It&#39;s the fastest way to register multiple domain names at once!</p>
+		<p><a class="noAnchorUnderline"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a> 
+        Pricing information for each domain type can be found <a href="/local/html/pricing.htm">here</a>.</p>
+</div>
+<div style="clear:both;"></div>
+
+
+</div>
+<div id="footerLarge" class="desktopdisplay bgBlack">
+<div id="FooterNav" class="container">
+	<div class="row accountCreateRow paddingBoth15 footerFirstRow">
+		<div class="col-md-3 footerListPaddingBottom">
+			<div class="footerColTitle">Domains</div>
+			<div><a href="https://www.register.ca/en/register.htm" class="footerColLink">Register A Domain</a></div>
+			<div><a href="https://www.register.ca/en/transfer.html" class="footerColLink">Transfer A Domain</a></div>
+			<div><a href="https://www.register.ca/en/renew.html" class="footerColLink">Renew A Domain</a></div>
+			<div><a href="https://www.register.ca/en/bulk/" class="footerColLink">Bulk Services</a></div>
+                        <div><a href="https://www.register.ca/local/html/pricing.htm" class="footerColLink">Pricing</a></div>
+		</div>
+		<div class="col-md-3 footerListPaddingBottom">
+			<div class="footerColTitle">Hosting</div>
+			<div><a href="https://www.register.ca/local/html/hosting/" class="footerColLink">Cloud Hosting</a></div>
+			<div><a href="https://www.register.ca/local/html/hosting/sitebuilder.htm" class="footerColLink">Do It Yourself</a></div>
+			<div><a href="https://www.register.ca/local/html/hosting/premiumemail.htm" class="footerColLink">Premium Email</a></div>
+			<div><a href="https://www.register.ca/local/html/hosting/exchange.htm" class="footerColLink">Exchange Email</a></div>
+			<div><a href="https://www.register.ca/local/html/pricing.htm" class="footerColLink">Pricing</a></div>
+		</div>
+		<div class="col-md-6 footerListPaddingBottom footerSearch textCenter">
+          
+		
+		<form class="form-inline" id="domainsearch_form_fifth" name="domainsearch_form" action="/en/searchaction.php" method="post">
+			<div class="input-group" style="width:100%;padding-top:35px;">		
+			<input id="domsearchfootertext" class="form-control input-lg" name="domsearchtext" type="text"/><span class="spinHeader"></span>
+			<div class="input-group-addon" style="border:none;background-color:#fff;width:103px;">			
+				<div class="btn-group"> 
+				  <button style="line-height:2.5;" id="btnFifthHeaderSearch" class="btn btn-danger headerRedButton" type="button">Register</button>		
+				  <button style="padding-right:11px;line-height:2.5;" class="btn btn-danger dropdown-toggle headerRedButton" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-expanded="true">
+					<span class="caret"></span>
+				  </button>
+				  <ul id="ulSearchType5" class="dropdown-menu" role="menu">
+					<li><a href="#" data-value="register">Register</a></li>
+					<li><a href="#" data-value="transfer">Transfer</a></li>
+					<li><a href="#" data-value="manage">Manage</a></li>
+					<li><a href="#" data-value="whois">Whois</a></li>
+				  </ul>
+				</div>
+			
+			</div>
+			</div>
+                        <input type="hidden" name="check" value="check"/>
+                        <input id="actdomsearchFifth" name="actdomsearch" type="hidden" value="register"/>
+		</form>			
+		</div>
+	</div>
+	<div class="row accountCreateRow paddingBoth15 footerSecondRow">	
+		<div class="col-md-3 footerListPaddingBottom">
+			<div class="footerColTitle">Support</div>
+			<div><a href="https://www.register.ca/local/html/help.htm" class="footerColLink">Online Help</a></div>
+                        <div><a href="https://www.register.ca/local/html/help.htm" class="footerColLink">FAQ</a></div>
+			<div><a href="https://www.register.ca/en/support.php" class="footerColLink">Open a Ticket</a></div>
+			<div><a href="https://www.register.ca/en/html/contact.htm" class="footerColLink">Contact Form</a></div>
+			<div><a href="https://www.register.ca/en/whois.php" class="footerColLink">Whois Lookup</a></div>
+		</div>
+                <div class="col-md-3 footerListPaddingBottom">
+                        <div class="footerColTitle">Management</div>
+                        <div><a href="https://www.register.ca/en/" class="footerColLink">Dashboard</a></div>
+                        <div><a href="https://www.register.ca/en/domains.php" class="footerColLink">My Domains</a></div>
+                        <div><a href="https://www.register.ca/en/account/" class="footerColLink">My Profile</a></div>
+                        <div><a href="https://www.register.ca/en/bulk/" class="footerColLink">Bulk Manager</a></div>
+                        <div><a href="https://www.register.ca/local/html/emailvalidation.htm" class="footerColLink">Email Validation</a></div>
+                </div>
+		<div class="col-md-3 footerListPaddingBottom">
+			<div class="footerColTitle">Resources</div>
+                        <div><a href="http://www.icann.org/en/resources/registrars/registrant-rights/benefits" class="footerColLink">Registrants Benefits</a></div>
+			<div><a href="http://www.icann.org/en/resources/registrars/registrant-rights/educational" class="footerColLink">Registrant Educational Materials</a></div>
+			<div><a href="http://www.icann.org/dndr/udrp/policy.htm" class="footerColLink">ICANN Dispute Resolution</a></div>
+			<div><a href="http://cira.ca/content/dispute-resolution-process" class="footerColLink">Dot-ca Dispute Resolution</a></div>
+			<div><a href="http://services.cira.ca/agree/mdf/index.action" class="footerColLink">Dot-ca Message Delivery</a></div>
+		</div>
+                <div class="col-md-3 footerListPaddingBottom">
+                        <div class="footerColTitle">Our Company</div>
+                        <div><a href="https://www.register.ca/local/html/aboutus.htm" class="footerColLink">About Us</a></div>
+                        <div><a href="https://www.register.ca/en/html/contact.htm" class="footerColLink">Careers</a></div>
+                        <div><a href="https://www.register.ca/en/html/privacy.htm" class="footerColLink">Privacy Statement</a></div>
+                        <div><a href="https://www.register.ca/local/html/terms.htm" class="footerColLink">Terms And Conditions</a></div>
+                        <div><a href="https://www.register.ca/en/html/contact.htm" class="footerColLink">Feedback &amp; Suggestions</a></div>
+                </div>
+
+		
+	</div>
+
+</div><!-- FooterNav -->	
+</div>
+<div id="footerSmall" class="mobileDisplay">
+<div id="footerwrap">
+    <div id="footerarea1">
+		<div id="smallmenubarpanel">
+			<div id="smallmainmenu">	
+				<ul class="nav nav-stacked" id="accordion10"><li style="margin-bottom:0;margin-top:0;padding-left:0;"><a style="padding:0 0 0 7px;background-color:inherit;" href="#id_0" data-toggle="collapse" data-parent="#accordion10"><span>Domains</span></a><ul style="padding-top:10px" class="collapse" id="id_0"><li style="background-color:#fff;" class="active" id="sid110"><a href="https://www.register.ca/en/register.htm">Register</a></li><li style="background-color:#fff;" id="sid120"><a href="https://www.register.ca/en/transfer.html">Transfer</a></li><li style="background-color:#fff;" id="sid130"><a href="https://www.register.ca/en/renew.html">Renew</a></li><li style="background-color:#fff;" id="sid135"><a href="https://www.register.ca/local/html/ngtld.htm">New Domain Extensions</a></li><li style="background-color:#fff;" id="sid140"><a href="https://www.register.ca/local/html/domain_extras.htm">Domain Extras</a></li><li style="background-color:#fff;" id="sid150"><a href="https://www.register.ca/local/html/whoisprivacy.htm">Whois Privacy</a></li><li style="background-color:#fff;" id="sid160"><a href="https://www.register.ca/local/html/hosting/sitebuilder.htm">Free 3 Page Website</a></li></ul></li><li style="margin-bottom:0;margin-top:0;padding-left:0;"><a style="padding:0 0 0 7px;background-color:inherit;" href="#id_1" data-toggle="collapse" data-parent="#accordion10"><span>Web Hosting</span></a><ul style="padding-top:10px" class="collapse" id="id_1"><li style="background-color:#fff;" id="sid210"><a href="https://www.register.ca/local/html/hosting/lite.htm">Lite</a></li><li style="background-color:#fff;" id="sid220"><a href="https://www.register.ca/local/html/hosting/pro.htm">Pro</a></li><li style="background-color:#fff;" id="sid230"><a href="https://www.register.ca/local/html/hosting/business.htm">Business</a></li><li style="background-color:#fff;" id="sid240"><a href="https://www.register.ca/local/html/hosting/comparison.htm?order=1">Comparison Chart</a></li><li style="background-color:#fff;" id="sid250"><a href="https://www.register.ca/local/html/cms.htm">CMS Hosting</a></li><li style="background-color:#fff;" id="sid260"><a href="https://www.register.ca/local/html/hosting/sitebuilder.htm">Do-It-Yourself</a></li><li style="background-color:#fff;" id="sid270"><a href="https://www.register.ca/local/html/business_solutions.htm">Get A Quote</a></li></ul></li><li style="margin-bottom:0;margin-top:0;padding-left:0;"><a style="padding:0 0 0 7px;background-color:inherit;" href="#id_2" data-toggle="collapse" data-parent="#accordion10"><span>Email</span></a><ul style="padding-top:10px" class="collapse" id="id_2"><li style="background-color:#fff;" id="sid310"><a href="https://www.register.ca/local/html/hosting/premiumemail.htm">Premium Email-25GB</a></li><li style="background-color:#fff;" id="sid320"><a href="https://www.register.ca/local/html/hosting/">Standard Email-1GB</a></li><li style="background-color:#fff;" id="sid330"><a href="https://www.register.ca/local/html/domain_extras.htm">Email Forwarding</a></li><li style="background-color:#fff;" id="sid340"><a href="https://www.register.ca/local/html/hosting/exchange.htm">Email Exchange</a></li></ul></li><li style="margin-bottom:0;margin-top:0;padding-left:0;"><a style="padding:0 0 0 7px;background-color:inherit;" href="#id_3" data-toggle="collapse" data-parent="#accordion10"><span>Pricing</span></a><ul style="padding-top:10px" class="collapse" id="id_3"><li style="background-color:#fff;" id="sid410"><a href="https://www.register.ca/local/html/pricing.htm">Overview</a></li><li style="background-color:#fff;" id="sid420"><a href="https://www.register.ca/local/html/promotions.htm">Promotions</a></li></ul></li><li style="margin-bottom:0;margin-top:0;padding-left:0;"><a style="padding:0 0 0 7px;background-color:inherit;" href="#id_4" data-toggle="collapse" data-parent="#accordion10"><span>Account Management</span></a><ul style="padding-top:10px" class="collapse" id="id_4"><li style="background-color:#fff;" id="sid610"><a href="https://www.register.ca/en/">Dashboard</a></li><li style="background-color:#fff;" id="sid620"><a href="https://www.register.ca/en/domains.php">My Domains</a></li><li style="background-color:#fff;" id="sid630"><a href="https://www.register.ca/en/account/">My Profile</a></li><li style="background-color:#fff;" id="sid640"><a href="https://www.register.ca/en/bulk/">Bulk Services</a></li></ul></li><li style="margin-bottom:0;margin-top:0;padding-left:0;"><a style="padding:0 0 0 7px;background-color:inherit;" href="#id_5" data-toggle="collapse" data-parent="#accordion10"><span>Help</span></a><ul style="padding-top:10px" class="collapse" id="id_5"><li style="background-color:#fff;" id="sid710"><a href="https://www.register.ca/local/html/faq.htm">FAQ</a></li><li style="background-color:#fff;" id="sid720"><a href="https://www.register.ca/en/html/contact.htm">Contact Us</a></li><li style="background-color:#fff;" id="sid730"><a href="https://www.register.ca/en/whois.php">Whois Lookup</a></li><li style="background-color:#fff;" id="sid740"><a href="https://www.register.ca/en/support.php">Support Request</a></li></ul></li></ul>    
+			</div>
+		</div>		
+	
+        <ul>
+
+		        <li><a href="https://www.register.ca/en/login.php">Login</a></li>  
+                </ul>
+    </div>
+    <div id="footerarea2">
+        <ul>	
+        <li><a href="https://www.register.ca/local/html/terms.htm">Terms and Conditions</a></li> 
+        <li><a href="https://www.register.ca/en/html/privacy.htm">Privacy</a></li>
+        <li><a href="https://www.register.ca/local/html/faq.htm">FAQ</a></li>
+        <li><a href="https://www.register.ca/en/whois.php">Whois</a></li> 
+        <li><a href="https://www.register.ca/local/html/aboutus.htm">About Us</a></li> 
+        <li><a href="https://www.register.ca/en/html/contact.htm">Contact Us</a></li> 
+        </ul>
+    </div>
+</div>
+</div>
+<div id="FooterWrap">
+	<div class="container">
+		<div class="row accountCreateRow">
+			<div class="col-md-8">
+				<div class="row">
+				<div class="col-sm-4">	
+					<div id="logoimg"></div>
+				</div>
+				<div id="appStore" class="col-sm-4" style="margin-top:10px;">
+					<div class="respBackgroundImage" title="Register Apps">
+					<a href="https://play.google.com/store/apps/details?id=register.ca.app" style="float:right;display:block;height:10px; width:70px; padding:10px;"></a>
+					<a href="https://itunes.apple.com/us/app/register.ca-mobile/id554244680?ls=1&amp;mt=8" style="float:right;display:block;height:10px; width:80px; padding:10px;"></a>
+					<a href="https://appworld.blackberry.com/webstore/content/132914/?lang=en" style="float:right;display:block;height:10px; width:74px; padding:10px;"></a>
+					</div>	
+				</div>
+				<div id="VisaLogo" class="col-md-4" style="margin-top:15px;">
+					<img src="/local/images/front/pmttypes.gif" alt="VISA Master Card Amenrican Express PayPal" title="VISA Master Card Amenrican Express PayPal"/>	
+				</div>			
+				
+				</div>
+				<div class="row" style="margin-top:15px;">
+				<div id="Copyright" style="width:100%;" class="grey">© Copyright 
+					2016					Register.ca, Inc. All rights reserved. Register.ca Inc., CIRA certified and ICANN accredited registrar is a Canadian 
+					owned and operated private company incorporated in Ontario, Canada. <a href="https://www.register.ca/local/html/aboutus.htm">More</a>.
+				</div>
+				
+				</div>
+				
+			</div>
+			<div class="col-md-4" style="text-align:center;">
+				<div id="FooterContact">
+					<div id="phno" style="margin-bottom: 20px;"><img src="/local/images/contactinfo.gif" alt="Contact" title="Contact"/></div>
+					<!--<img src="/local/images/footerphno.gif" alt="Phone No" title="Phone No" />-->
+					<div><a href="https://www.register.ca/en/html/contact.htm" style="padding-right:5px;">Contact Form</a>|<a href="https://www.register.ca/en/support.php" style="padding-left: 5px;">Open a Ticket</a></div>
+				</div>	
+				<div id="social">
+					<div style="background-image:url(/local/images/socialmediaicons.png); background-repeat:no-repeat; height:36px; width:144px; margin:0 auto;" title="Social Media Links">
+					<a href="https://www.youtube.com/user/Registerdotca" target="_blank" style="float:right;display:block;height:36px; width:36px;"></a>
+					<a href="https://plus.google.com/109361847971058246070" rel="publisher" target="_blank" style="float:right;display:block;height:36px; width:36px;"></a>
+					<a href="https://twitter.com/register_ca" target="_blank" style="float:right;display:block;height:36px; width:36px;"></a>
+					<a href="https://facebook.com/Register.ca" target="_blank" style="float:right;display:block;height:36px; width:36px;"></a>
+					</div>
+				</div>	
+			</div>
+		</div>
+
+	</div>	
+</div>
+
+
+	
+<script type="text/javascript" src="/local/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="/local/js/jquery.autocomplete.min.js"></script>
+<script type="text/javascript" src="/local/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/local/js/custom.js"></script>
+<script type="text/javascript" src="/en/js/lib-en.js"></script>
+<script type="text/javascript" src="/local/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/local/js/dataTables.bootstrap.min.js"></script>
+
+	
+	
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26002540-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!--Chat-->
+<script async="" type="text/javascript" charset="UTF-8" src="https://server.iad.liveperson.net/hc/56567300/?cmd=mTagRepstate&amp;site=56567300&amp;buttonID=16&amp;divID=lpButDivID-1442261089&amp;bt=1&amp;c=1"></script>
+<!---End of -Chat---->
+
+<!-- BEGIN LivePerson Monitor. -->
+<script async="" language="javascript"> var lpMTagConfig = {'lpServer' : "server.iad.liveperson.net",'lpNumber' : "56567300",'lpProtocol' : "https"}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);</script>
+<!-- END LivePerson Monitor. -->
+
+
+
+
+</body></html>
